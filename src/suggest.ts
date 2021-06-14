@@ -1,14 +1,9 @@
-import nspell from "nspell";
-import getBrandNames from "./get-brand-names";
+import BrandNameSpellChecker from "./index";
 import preprocess from "./preprocess";
 import seam from "./seam";
 
-export default (str) => {
-  const names = [...getBrandNames().keys()];
-
-  const aff = `SET UTF-8`;
-
-  const spell = nspell(aff, names.join("\n"));
+export default (context: BrandNameSpellChecker, str: string): string[] => {
+  const names = [...context.innerBrandNameMap.keys()];
 
   const pstr = preprocess(str);
 
@@ -17,14 +12,16 @@ export default (str) => {
       if (name.substring(i).startsWith(pstr)) {
         return true;
       }
+      return false;
     }
+    return false;
   });
 
-  const spellSuggests = spell.suggest(pstr);
+  const nspellSuggests = context.nspellInstance.suggest(pstr);
 
   return substrs
-    .concat(spellSuggests)
-    .map((d) => [seam(pstr, d), d])
+    .concat(nspellSuggests)
+    .map<[number, string]>((d) => [seam(pstr, d), d])
     .sort((a, b) => b[0] - a[0])
     .map((d) => d[1]);
 };
