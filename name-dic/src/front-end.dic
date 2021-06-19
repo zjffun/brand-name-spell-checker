@@ -1,19 +1,13 @@
-18F Accessibility Guide
-A collective list of JSON APIs for use in web development
-A11Y Style Guide
+564
 API
 AVA
 AWS
 AWS Cloud9
-Accessibility Guidelines Checklist
 Adobe PhoneGap
-Airbnb CSS / Sass Styleguide
-Airbnb's ESLint config, following our styleguide
 AlaSQL
 Algolia
-An Alphabet of Accessibility Issues
 Angular
-Angular (application platform)
+Angular CLI
 AngularJS
 Animate
 Animate Plus
@@ -33,24 +27,21 @@ AuthRocket
 Axure
 BEM
 Babel
-Babylon.js
-Backbone.js
 Backendless
 BackstopJS
 Balsamiq Mockups
 Bamboo
 Base
-Basic screen reader commands
 Basscss
 Batarang
+Benchmark.js
+Best of JS
 Bitballoon
 Bitbucket
 Bliss
-Blockly
 Bootstrap
-Bootstrap 4
-Browser support for broken/missing images
 BrowserStack
+Browserhacks.com
 Browserify
 Browserling
 Browserscope
@@ -60,38 +51,28 @@ Brunch
 Buddy
 Bulma
 C3.js
-CHR.js
 CSS Arrow Please
 CSS Cheat Sheet
 CSS Cursors
 CSS Indexes
 CSS Lint
 CSS Matic
-CSS TRIGGERS...A GAME OF LAYOUT, PAINT, AND COMPOSITE
+CSS TRIGGERS
 CSS Tricks Almanac
 CSS code guide
-CSS-Tricks Image Resources
 CSSO
 CSScomb
 CSSfmt
 Cacoo
-Cannon.js
-Cappuccino
 CasperJS
-Cassowary (software)
 Catalog
 Cerebral
 Chai
-Chaplin.js
 Charles
 Chart.js
 ChartBlocks
 Chartist-jsj
 Cheerio
-Chrome Accessibility Developer Tools
-Chrome DevTools Network Panel
-Chrome DevTools Timeline
-Chrome Developer Tools (aka DevTools)
 ChromeVox
 CircleCI
 Closure Compiler
@@ -106,7 +87,6 @@ Color Ratio
 Color Safe
 Colorable
 Colorable Matrix
-Command Line API Reference
 Conceptboard
 Concise
 Contentful
@@ -114,10 +94,7 @@ Coveralls
 CrossBrowserTesting.com
 CuratedSEOTools
 Cypress
-Cytoscape
 D3.js
-DOM Browser Support
-DOM Events Browser Support
 DOM Monster
 DOMPurify
 Dash
@@ -131,33 +108,24 @@ DeskGap
 DevDocs
 Dexie.js
 DigitalOcean
-Directus 7 App
-Dojo Toolkit
-Dojo Widgets
+Directus
 Dynamics.js
 ESDoc
 EaselJS
-Echo
 Electron
 Element attributes
 Elements
 Email-Boilerplate
 Ember
 Ember Inspector
-Ember.js
 Emmet
 Emotion
-Enable accessibility panel in Chrome dev tools
 Enjoy CSS
-Enyo
 Enzyme
 Epoch
-Eric Meyer's “Reset CSS” 2.0
 Esprima
 Events
-Express.js
 Expresso App
-Ext JS
 ExtReact
 FTPLOY
 Fabric
@@ -175,30 +143,22 @@ Flow
 Flutter
 Forge
 Foundation
-Front-End Performance Checklist 2019 [PDF, Apple Pages, MS Word]
-Front-end Guidelines
-Front-end Guidelines Questionnaire
 Frontify
 Fusebox
 FusionCharts
 GTmetrix
-Getting Started with ARIA
 Ghost Inspector
 GitLab
 Github
 Gitter
-Glow
 Google Charts
-Google Closure Library
-Google Polymer
-Google Web Toolkit
-Google Webmasters Search Console
+Google Search Central
+Google Webmasters
 Grammarly
 GraphQL
 GraphicsJS
 GreenSock-JS
 Gulp
-HEAD - A free guide to
 HTML 5 Outliner
 HTML Arrows
 HTML Code Guide
@@ -226,7 +186,6 @@ ImageOptim-CLI
 ImmortalDB
 InVision
 Insomnia
-Interactive WCAG 2.0
 Intern
 JAWS
 JSDoc
@@ -234,6 +193,7 @@ JSON Editor Online
 JSON Formatter & Validator
 JSON Generator
 JSON Mask
+JSON:API
 JSONPlaceholder
 JSONmate
 JSUI
@@ -241,78 +201,54 @@ JSX
 JScrambler
 JSter
 Jam API
-Jank Free
 Jasmine
-JavaScript InfoVis Toolkit
-JavaScriptMVC
 Javascript Obfuscator
 Jest
-Jinja-JS
-Joose
-JsPHP
-JsRender/JsViews
 Justinmind
 Kakapo.js
 Kendo UI
-Keyboard & UI Shortcuts Reference
 Keyboard Event Viewer
 Keypress
 Keyword Tool
-Knockout
 KoalaApp
 Kute.js
 LibreStock
 LightCMS
 Lighthouse
-Lively Kernel
 LocalForage
 LokiJS
 Lorem Pixel
 Lovefield
 Luxon
-MDN Accessibility Guide
-MDN Browser Object Model
-MDN CSS Reference
-MDN Document Object Model
-MDN Document Object Model (DOM)
-MDN Event reference
-MS Office
-MSDN Document Object Model (DOM)
+MDL
 Magic
 MaintainableCSS
 Markdown
 Marvel
-Material Design Lite (MDL)
+Material Design Lite
 Material ui
 Materialize
 Math.js
-MathJax
 Mattermost
 Meet the Ipsums
-Meteor
 Metro UI
 Microbundle
 Micron.js
-Microsoft's Ajax library
 Mini.css
 Mitmproxy
 Mobi.css
 Mobile boilerplate
 Mobx
 Mocha
-MochiKit
 Mockaroo
 Mocky
 Modernizr
-Mojito
 Moment.js
 Monaca
 MongoDB Stitch
 Monkey Test It
-MooTools
 Moqups
 Motion
-Mustache
 NPM
 NVDA
 NW.js
@@ -335,8 +271,6 @@ ObjectPath
 Office UI Fabric
 Offline.js
 Okta
-OpenUI5
-PDF.js
 PNPM
 PaizaCloud
 Paper.js
@@ -344,55 +278,42 @@ Parcel
 Paw
 Per-Panel Documentation
 Percy
-Performance of ES6 features relative to the ES5
 PhantomCSS
 Photon
 Picnic
 Pingdom
 Placeimg
 Platform.js
-Plotly
 Poi
-Pointer Events Polyfill: a unified event system for the web platform
+Pointer Events Polyfill
 Polly.JS
 Polymer
-Polymer (library)
 Popmotion
 PostCSS
 Postman
-PouchDB
 Pouchdb
-Practical ARIA Examples
 Prepack
 Prepros
-Principles of Writing Consistent, Idiomatic HTML
-Processing.js
-Progressive Web App Checklist
-Prototype JavaScript Framework
 Pug
 Pure.css
-PureMVC
 Pusher
-QUnit
 RANDOM USER GENERATOR
-RGraph
 Radium
 Ramda
 Raphaël
 Ratchet
 Raygun
 React
+React
+React Desktop
 React Developer Tools
 React Native
-React UI Components for OS X El Capitan and Windows 10
-React.js
 Readability Score
-RealWorld example apps
 Redux
-Reframing Accessibility for the Web
 RegExr
 Relay
-Riot
+Reset CSS
+Riot.js
 Rivets.js
 Rollbar
 Rollup
@@ -402,13 +323,11 @@ SC5 STYLE GUIDE GENERATOR
 SEE
 SEO Tools
 SMACSS
+SMACSS
 SUIT CSS
-SWFObject
-Safari Web Inspector
 Satyr
 Sauce Labs
-Scalable Modular Architecture for CSS (SMACSS)
-Script.aculo.us
+Scalable Modular Architecture for CSS
 Semantic UI
 Semantic-UI-React
 Semaphore
@@ -420,39 +339,29 @@ Skeleton
 Slack
 Snap.svg
 SockJS
-Socket.IO
 Sonarwhal
 Spectre.css
 Spectrum
 Speed Curve
 Springloops
-SproutCore
-Spry framework
 StackBliz
 Standard
-Standards for Developing Flexible, Durable, and Sustainable HTML and CSS
 Sublime Text
 Surge
 Surreal CMS
-Svelte
 Tachyons
 Tailwind CSS
 Tape
-Teechart
 Tenon Accessibility Tool
-TensorFlow
 Tern
 Terser
 TestCafe
 Testing Library
 Tether
-The Front-End Checklist
 TheoremJS
-Three.js
 TrackJS
 Travis CI
 TweenJS
-Twig.js
 Two.js
 TypeScript
 URI.js
@@ -460,17 +369,14 @@ UXPin
 UiKit
 Ultimate CSS Gradient Generator
 Umbrella JS
-Underscore.js
 Unfuddle
 Unheap
-Unit.js
 Unsplash
 Uptime Robot
 Uptrends
 Varvy SEO tool
 Velocity
 Velocity.js
-Verge3D
 Visual Studio Code
 VoiceOver
 Vorlon.js
@@ -478,21 +384,14 @@ Vue.js
 Vue.js devtools
 Vuex
 WAVE Accessibility Tool
-Wakanda Framework
 Web Page Test
 WebDriver.io
 WebFaction
 WebStorm
 Webix
 Websecurify
-What’s next for CSS?
-WinJS
 Workbox
 XSS
-YUI Library
-You Don't Need jQuery
-You don't (may not) need Moment.js
-You-Dont-Need-Lodash-Underscore
 Zeal
 Zepto
 ZingChart
@@ -500,15 +399,11 @@ Zombie.js
 aXe Browser Extension
 accounting.js
 amCharts
-angular-cli
 appear.in
 art-template
 async
 axios
 baconipsum.com
-benchmark.js
-bestof.js.org
-browserhacks.com
 bugsnag
 built with
 bundlephobia.com
@@ -520,10 +415,8 @@ chance
 clean-css
 clipboard.js
 cocoon.io
-codeSandbox
 console-polyfill
 create-react-app
-css-architecture
 css3clickchart.com
 css3test.com
 css4 Rocks
@@ -533,7 +426,6 @@ cssnano
 cssnext
 cssreference.io
 cssvalues.com
-d3
 dCodes
 date-fns
 debuggex
@@ -545,11 +437,11 @@ documentjs
 docz
 dom-shims
 draw.io
-elements
 embercli
 errorception
 esformatter
 eslint
+eslint-config-airbnb
 expect.js
 fetch
 flexplorer
@@ -565,7 +457,6 @@ html-inspector
 html2canvas
 html5shiv
 htmlreference.io
-http://browserl.ist/
 imagemin
 immutable
 inferno
@@ -575,10 +466,7 @@ ionic hub
 is.js
 istanbul
 iwanttouse.com
-jQWidgets
 jQuery
-jQuery Mobile
-jQuery UI
 javascripting.com
 jetpack
 js-beautify
@@ -597,11 +485,9 @@ jsonschema.net
 jsperf.com
 kony
 libraries.io
-lighthouse
 lodash
 lowdb
 majestic
-midori
 mobx-state-tree
 mockable.io
 mockapi.io
@@ -614,7 +500,6 @@ netlify
 npms
 onsen.io
 optimize-js
-p5.js
 patternify.com
 patternizer.com
 performancebudget.io
@@ -629,16 +514,13 @@ prismic.io
 proto.io
 proton
 purgecss
-qooxdoo
 ractive.js
 randomuser.me
 rax
-react.js
 regex101
 regexper
 restdb.io
 rework
-riot
 rscss
 sanitize.css
 screenhero
@@ -662,7 +544,6 @@ svg.js
 tablesgenerator.com
 tabris.js
 three.js
-todomvc.com
 transform-www
 trigger.io
 uinames.com
@@ -672,7 +553,6 @@ upup
 virtual-dom
 voca
 vue-cli
-vue.js
 wait
 web-animations-js
 web-platform-tests dashboard
