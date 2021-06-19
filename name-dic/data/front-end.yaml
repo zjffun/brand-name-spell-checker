@@ -3,6 +3,8 @@
   tags:
     - Front-end
     - JSON Specifications/Schemas
+  alias:
+    - JSON:API
 - name: accounting.js
   url: http://openexchangerates.github.io/accounting.js/
   tags:
@@ -13,12 +15,7 @@
   url: http://phonegap.com/
   tags:
     - Front-end
-- name: Airbnb CSS / Sass Styleguide
-  url: https://github.com/airbnb/css
-  tags:
-    - Front-end
-    - Authoring/Architecting Conventions
-- name: Airbnb's ESLint config, following our styleguide
+- name: eslint-config-airbnb
   url: https://www.npmjs.com/package/eslint-config-airbnb
   tags:
     - Front-end
@@ -44,7 +41,7 @@
     - Front-end
     - Front-End App Frameworks
     - App Frameworks Tools
-- name: angular-cli
+- name: Angular CLI
   url: https://github.com/angular/angular-cli
   tags:
     - Front-end
@@ -229,11 +226,6 @@
   tags:
     - Front-end
     - CSS Frameworks
-- name: Basic screen reader commands
-  url: https://www.paciellogroup.com/blog/2015/01/basic-screen-reader-commands-for-accessibility-testing/
-  tags:
-    - Front-end
-    - Screen Readers
 - name: Basscss
   url: http://basscss.com/
   tags:
@@ -251,12 +243,12 @@
   tags:
     - Front-end
     - Architecting CSS
-- name: benchmark.js
+- name: Benchmark.js
   url: http://benchmarkjs.com/
   tags:
     - Front-end
     - Performance Testing
-- name: bestof.js.org
+- name: Best of JS
   url: https://bestof.js.org/
   tags:
     - Front-end
@@ -277,17 +269,12 @@
     - Front-end
     - DOM Libraries/Frameworks
     - DOM Tools
-- name: Bootstrap 4
-  url: https://v4-alpha.getbootstrap.com/
+- name: Bootstrap
+  url: https://getbootstrap.com/
   tags:
     - Front-end
     - CSS Frameworks
-- name: Browser support for broken/missing images
-  url: http://codepen.io/bartveneman/full/qzCte/
-  tags:
-    - Front-end
-    - Determine If X Browser Supports X Tools
-- name: browserhacks.com
+- name: Browserhacks.com
   url: http://browserhacks.com/
   tags:
     - Front-end
@@ -435,26 +422,6 @@
     - Front-end
     - Software Testing Frameworks
     - Testing Tools
-- name: Chrome Accessibility Developer Tools
-  url: https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb
-  tags:
-    - Front-end
-    - Site Scanners
-- name: Chrome Developer Tools (aka DevTools)
-  url: https://developers.google.com/web/tools/?hl=en
-  tags:
-    - Front-end
-    - Browser Development/Debug Tools
-- name: Chrome DevTools Network Panel
-  url: https://developers.google.com/web/tools/chrome-devtools/profile/network-performance/resource-loading
-  tags:
-    - Front-end
-    - HTTP/Network Tools
-- name: Chrome DevTools Timeline
-  url: https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/timeline-tool
-  tags:
-    - Front-end
-    - DOM Performance Tools
 - name: ChromeVox
   url: http://www.chromevox.com/
   tags:
@@ -538,11 +505,6 @@
   tags:
     - Front-end
     - Color Contrast Testers
-- name: Command Line API Reference
-  url: https://developers.google.com/web/tools/javascript/command-line/command-line-reference?hl=en
-  tags:
-    - Front-end
-    - Browser Development/Debug Tools
 - name: Conceptboard
   url: https://conceptboard.com/
   tags:
@@ -621,22 +583,11 @@
   tags:
     - Front-end
     - References
-- name: CSS TRIGGERS...A GAME OF LAYOUT, PAINT, AND COMPOSITE
+- name: CSS TRIGGERS
   url: http://csstriggers.com/
   tags:
     - Front-end
     - References
-- name: css-architecture
-  url: https://github.com/jareware/css-architecture
-  tags:
-    - Front-end
-    - Authoring/Architecting Conventions
-- name: CSS-Tricks Image Resources
-  url: https://css-tricks.com/sites-with-high-quality-photos-you-can-use-for-free/
-  tags:
-    - Front-end
-    - Images
-    - Placeholder Content Tools
 - name: css3clickchart.com
   url: http://css3clickchart.com/
   tags:
@@ -708,7 +659,7 @@
   tags:
     - Front-end
     - Integration/Functional Testing
-- name: d3
+- name: D3.js
   url: http://d3js.org/
   tags:
     - Front-end
@@ -806,7 +757,7 @@
     - Front-end
     - JS Utilities
     - JavaScript Tools
-- name: Directus 7 App
+- name: Directus
   url: https://directus.io/
   tags:
     - Front-end
@@ -821,16 +772,6 @@
   tags:
     - Front-end
     - Documentation Generation Tools
-- name: DOM Browser Support
-  url: http://www.webbrowsercompatibility.com/dom/desktop/
-  tags:
-    - Front-end
-    - References
-- name: DOM Events Browser Support
-  url: http://www.webbrowsercompatibility.com/dom-events/desktop/
-  tags:
-    - Front-end
-    - References
 - name: DOM Monster
   url: http://mir.aculo.us/dom-monster/
   tags:
@@ -934,7 +875,7 @@
   tags:
     - Front-end
     - Widgets & Components
-- name: Eric Meyer's “Reset CSS” 2.0
+- name: Reset CSS
   url: https://meyerweb.com/eric/tools/css/reset/
   tags:
     - Front-end
@@ -1088,11 +1029,6 @@
   tags:
     - Front-end
     - State Tools
-- name: Front-End Performance Checklist 2019 [PDF, Apple Pages, MS Word]
-  url: https://www.smashingmagazine.com/2019/01/front-end-performance-checklist-2019-pdf-pages/
-  tags:
-    - Front-end
-    - Performance
 - name: frontendtools.com
   url: http://frontendtools.com/
   tags:
@@ -1152,12 +1088,14 @@
   tags:
     - Front-end
     - Widgets & Components
-- name: Google Webmasters Search Console
+- name: Google Search Central
   url: https://www.google.com/webmasters/
   tags:
     - Front-end
     - SEO Tools
     - SEO Tools
+  alias:
+    - Google Webmasters
 - name: Grammarly
   url: https://www.grammarly.com/
   tags:
@@ -1196,14 +1134,6 @@
     - Front-end
     - Tasking Tools
     - Tasking Tools
-- name: HEAD
-  url: https://gethead.info/
-  tags:
-    - Front-end
-    - References
-  desc: |-
-    A free guide to
-    elements
 - name: Headless
   url: https://www.headless.rest/
   tags:
@@ -1343,10 +1273,6 @@
   tags:
     - Front-end
     - References
-- name: http://browserl.ist/
-  url: http://browserl.ist/?q=%3E+2%25
-  tags:
-    - Front-end
 - name: Idiomatic CSS
   url: https://github.com/necolas/idiomatic-css
   tags:
@@ -1612,11 +1538,6 @@
     - Front-end
     - On Web Platform
     - UI Widget & Component Toolkits
-- name: Keyboard & UI Shortcuts Reference
-  url: https://developers.google.com/web/tools/iterate/inspect-styles/shortcuts
-  tags:
-    - Front-end
-    - Browser Development/Debug Tools
 - name: Keyboard Event Viewer
   url: http://w3c.github.io/uievents/tools/key-event-viewer.html
   tags:
@@ -1735,11 +1656,13 @@
   tags:
     - Front-end
     - ""
-- name: Material Design Lite (MDL)
+- name: Material Design Lite
   url: http://www.getmdl.io/index.html
   tags:
     - Front-end
     - CSS Frameworks
+  alias:
+    - MDL
 - name: Material ui
   url: http://material-ui.com/
   tags:
@@ -1883,16 +1806,6 @@
     - Front-end
     - CSS and JS Utilities
     - Animation Tools
-- name: MS Office
-  url: https://support.office.com/en-us/article/Test-your-document-s-readability-0adc0e9a-b3fb-4bde-85f4-c9e88926c6aa
-  tags:
-    - Front-end
-    - Readability Testers
-- name: MSDN Document Object Model (DOM)
-  url: https://msdn.microsoft.com/en-us/library/hh772384%28v=vs.85%29.aspx
-  tags:
-    - Front-end
-    - References
 - name: myBalsamiq
   url: https://balsamiq.cloud/
   tags:
@@ -2158,7 +2071,7 @@
   tags:
     - Front-end
     - Module Loading/Bundling Tools
-- name: "Pointer Events Polyfill: a unified event system for the web platform"
+- name: Pointer Events Polyfill
   url: https://github.com/jquery/PEP
   tags:
     - Front-end
@@ -2216,22 +2129,12 @@
   tags:
     - Front-end
     - Code Formater/Beautifier
-- name: Principles of Writing Consistent, Idiomatic HTML
-  url: https://github.com/necolas/idiomatic-html
-  tags:
-    - Front-end
-    - Authoring Conventions
 - name: prismic.io
   url: https://prismic.io/
   tags:
     - Front-end
     - Headless CMS Tools
     - Content Management Hosted/API Tools
-- name: Progressive Web App Checklist
-  url: https://developers.google.com/web/progressive-web-apps/checklist
-  tags:
-    - Front-end
-    - Progressive Web App Tools
 - name: proto.io
   url: https://proto.io/
   tags:
@@ -2326,13 +2229,13 @@
   url: https://facebook.github.io/react-native/
   tags:
     - Front-end
-- name: React UI Components for OS X El Capitan and Windows 10
+- name: React Desktop
   url: http://gabrielbull.github.io/react-desktop/
   tags:
     - Front-end
     - Native Desktop/Laptop/Netbook Apps via Web Platform
-- name: react.js
-  url: https://facebook.github.io/react/index.html
+- name: React
+  url: https://reactjs.org/
   tags:
     - Front-end
     - Templating and Reactive Data Binding
@@ -2416,11 +2319,6 @@
     - Front-end
     - JS Utilities
     - JavaScript Tools
-- name: Safari Web Inspector
-  url: https://developer.apple.com/safari/tools/
-  tags:
-    - Front-end
-    - Browser Development/Debug Tools
 - name: sanitize.css
   url: https://github.com/jonathantneal/sanitize.css
   tags:
@@ -2441,11 +2339,13 @@
   tags:
     - Front-end
     - Style Guide Resources
-- name: Scalable Modular Architecture for CSS (SMACSS)
+- name: Scalable Modular Architecture for CSS
   url: https://frontendmasters.com/courses/smacss/
   tags:
     - Front-end
     - Architecting CSS
+  alias:
+    - SMACSS
 - name: screenhero
   url: https://screenhero.com/
   tags:
