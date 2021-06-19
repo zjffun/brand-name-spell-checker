@@ -1,0 +1,3287 @@
+- name: "{json:api}"
+  url: http://jsonapi.org/
+  tags:
+    - Front-end
+    - JSON Specifications/Schemas
+- name: accounting.js
+  url: http://openexchangerates.github.io/accounting.js/
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: Adobe PhoneGap
+  url: http://phonegap.com/
+  tags:
+    - Front-end
+- name: Airbnb CSS / Sass Styleguide
+  url: https://github.com/airbnb/css
+  tags:
+    - Front-end
+    - Authoring/Architecting Conventions
+- name: Airbnb's ESLint config, following our styleguide
+  url: https://www.npmjs.com/package/eslint-config-airbnb
+  tags:
+    - Front-end
+    - Authoring Convention Tools
+- name: AlaSQL
+  url: http://alasql.org/
+  tags:
+    - Front-end
+    - Front-End Data Storage Tools
+- name: Algolia
+  url: https://www.algolia.com/
+  tags:
+    - Front-end
+    - Search
+- name: amCharts
+  url: http://www.amcharts.com/
+  tags:
+    - Front-end
+    - Widgets & Components
+- name: An Alphabet of Accessibility Issues
+  url: https://the-pastry-box-project.net/anne-gibson/2014-July-31
+  tags:
+    - Front-end
+    - Articles
+- name: Angular
+  url: https://github.com/angular/angular
+  tags:
+    - Front-end
+    - Front-End App Frameworks
+    - App Frameworks Tools
+- name: angular-cli
+  url: https://github.com/angular/angular-cli
+  tags:
+    - Front-end
+    - Front-End App Frameworks
+    - App Frameworks Tools
+- name: AngularJS
+  url: https://github.com/angular/angular.js
+  tags:
+    - Front-end
+    - Front-End App Frameworks
+    - App Frameworks Tools
+- name: Animate
+  url: https://github.com/daneden/animate.css
+  tags:
+    - Front-end
+    - CSS and JS Utilities
+    - Animation Tools
+- name: Animate Plus
+  url: https://github.com/bendc/animateplus
+  tags:
+    - Front-end
+    - CSS and JS Utilities
+    - Animation Tools
+- name: Anime.js
+  url: http://animejs.com/
+  tags:
+    - Front-end
+    - CSS and JS Utilities
+    - Animation Tools
+- name: Animista.net
+  url: http://animista.net/
+  tags:
+    - Front-end
+    - CSS and JS Utilities
+    - Animation Tools
+- name: Ant Design
+  url: https://ant.design/
+  tags:
+    - Front-end
+    - React Specific, On Web Platform
+- name: AnyChart
+  url: http://www.anychart.com/
+  tags:
+    - Front-end
+    - Widgets & Components
+- name: Aphrodite
+  url: https://github.com/Khan/aphrodite
+  tags:
+    - Front-end
+    - CSS in JS
+- name: API
+  url: http://baconipsum.com/json-api/
+  tags:
+    - Front-end
+    - Text
+- name: Apollo
+  url: http://www.apollodata.com/
+  tags:
+    - Front-end
+    - Data/back-end
+- name: appear.in
+  url: https://appear.in/
+  tags:
+    - Front-end
+    - Collaboration & Communication Tools
+- name: art-template
+  url: https://aui.github.io/art-template/
+  tags:
+    - Front-end
+    - Just Templating
+    - Templating/Data Binding Tools
+- name: Assembla
+  url: https://www.assembla.com/
+  tags:
+    - Front-end
+    - Project Management & Code Hosting Tools
+- name: async
+  url: http://caolan.github.io/async/
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: Atom
+  url: https://atom.io/
+  tags:
+    - Front-end
+    - Code Editors
+- name: Atomic Design
+  url: http://atomicdesign.bradfrost.com/
+  tags:
+    - Front-end
+    - Architecting CSS
+- name: Aurelia
+  url: http://aurelia.io/
+  tags:
+    - Front-end
+    - Front-End App Frameworks
+    - App Frameworks Tools
+- name: Aurelia CLI
+  url: https://github.com/aurelia/cli
+  tags:
+    - Front-end
+    - Front-End App Frameworks
+    - App Frameworks Tools
+- name: Auth0
+  url: https://auth0.com/
+  tags:
+    - Front-end
+    - User Management as a Service
+- name: AuthRocket
+  url: https://authrocket.com/
+  tags:
+    - Front-end
+    - User Management as a Service
+- name: AVA
+  url: https://github.com/avajs/ava
+  tags:
+    - Front-end
+    - Unit Testing
+- name: AVA
+  url: https://github.com/avajs/ava
+  tags:
+    - Front-end
+    - Unit Testing
+    - repetition
+- name: AWS
+  url: https://aws.amazon.com/websites/
+  tags:
+    - Front-end
+    - General
+    - Hosting Tools
+- name: AWS Cloud9
+  url: https://aws.amazon.com/cloud9/
+  tags:
+    - Front-end
+    - Online Code Editors
+- name: aXe Browser Extension
+  url: http://www.deque.com/products/axe/
+  tags:
+    - Front-end
+    - Site Scanners
+- name: axios
+  url: https://github.com/mzabriskie/axios
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: Axure
+  url: http://www.axure.com/
+  tags:
+    - Front-end
+    - ""
+    - Prototyping & Wireframing Tools
+- name: Babel
+  url: https://babeljs.io/
+  tags:
+    - Front-end
+    - Transpiling
+- name: Backendless
+  url: https://backendless.com/
+  tags:
+    - Front-end
+    - BAAS
+    - Back-end/API tools
+- name: BackstopJS
+  url: https://github.com/garris/BackstopJS
+  tags:
+    - Front-end
+    - UI Testing Tools
+- name: baconipsum.com
+  url: http://baconipsum.com/
+  tags:
+    - Front-end
+    - Text
+- name: Balsamiq Mockups
+  url: https://balsamiq.com/
+  tags:
+    - Front-end
+    - ""
+    - Prototyping & Wireframing Tools
+- name: Bamboo
+  url: https://www.atlassian.com/software/bamboo/
+  tags:
+    - Front-end
+    - Deployment Tools
+- name: Base
+  url: http://getbase.org/
+  tags:
+    - Front-end
+    - CSS Frameworks
+- name: Basic screen reader commands
+  url: https://www.paciellogroup.com/blog/2015/01/basic-screen-reader-commands-for-accessibility-testing/
+  tags:
+    - Front-end
+    - Screen Readers
+- name: Basscss
+  url: http://basscss.com/
+  tags:
+    - Front-end
+    - CSS Utilities
+    - CSS Tools
+- name: Batarang
+  url: https://github.com/angular/angularjs-batarang
+  tags:
+    - Front-end
+    - Front-End App Frameworks
+    - App Frameworks Tools
+- name: BEM
+  url: http://getbem.com/introduction/
+  tags:
+    - Front-end
+    - Architecting CSS
+- name: benchmark.js
+  url: http://benchmarkjs.com/
+  tags:
+    - Front-end
+    - Performance Testing
+- name: bestof.js.org
+  url: https://bestof.js.org/
+  tags:
+    - Front-end
+    - Tools for Finding Tools
+- name: Bitballoon
+  url: https://www.bitballoon.com/
+  tags:
+    - Front-end
+    - Static
+- name: Bitbucket
+  url: https://bitbucket.org/
+  tags:
+    - Front-end
+    - Project Management & Code Hosting Tools
+- name: Bliss
+  url: http://blissfuljs.com/docs.html
+  tags:
+    - Front-end
+    - DOM Libraries/Frameworks
+    - DOM Tools
+- name: Bootstrap 4
+  url: https://v4-alpha.getbootstrap.com/
+  tags:
+    - Front-end
+    - CSS Frameworks
+- name: Browser support for broken/missing images
+  url: http://codepen.io/bartveneman/full/qzCte/
+  tags:
+    - Front-end
+    - Determine If X Browser Supports X Tools
+- name: browserhacks.com
+  url: http://browserhacks.com/
+  tags:
+    - Front-end
+    - Browser Hacks
+- name: Browserify
+  url: http://browserify.org/
+  tags:
+    - Front-end
+    - Module Loading/Bundling Tools
+- name: Browserling
+  url: https://www.browserling.com/
+  tags:
+    - Front-end
+    - Hosted Testing/Automation for Browsers
+- name: Browserling
+  url: https://www.browserling.com/
+  tags:
+    - Front-end
+    - Hosted Testing/Automation for Browsers
+    - repetition
+- name: Browserscope
+  url: http://www.browserscope.org/
+  tags:
+    - Front-end
+    - Determine If X Browser Supports X Tools
+- name: Browserslist
+  url: https://github.com/ai/browserslist
+  tags:
+    - Front-end
+- name: BrowserStack
+  url: https://www.browserstack.com/
+  tags:
+    - Front-end
+    - Hosted Testing/Automation for Browsers
+- name: BrowserStack
+  url: https://www.browserstack.com/
+  tags:
+    - Front-end
+    - Hosted Testing/Automation for Browsers
+    - repetition
+- name: Browsersync
+  url: http://www.browsersync.io/
+  tags:
+    - Front-end
+    - Browser Syncing Tools
+- name: Brunch
+  url: http://brunch.io/
+  tags:
+    - Front-end
+    - Tasking Tools
+- name: Buddy
+  url: https://buddy.works/
+  tags:
+    - Front-end
+    - Deployment Tools
+- name: bugsnag
+  url: https://bugsnag.com/
+  tags:
+    - Front-end
+    - JavaScript Error Reporting/Monitoring
+- name: built with
+  url: http://builtwith.com/
+  tags:
+    - Front-end
+    - Tools for Finding Tools
+- name: Bulma
+  url: http://bulma.io/
+  tags:
+    - Front-end
+    - CSS Frameworks
+- name: bundlephobia.com
+  url: https://bundlephobia.com/
+  tags:
+    - Front-end
+    - Reporting
+    - Performance Tools
+- name: C3.js
+  url: http://c3js.org/
+  tags:
+    - Front-end
+    - Widgets & Components
+- name: Cacoo
+  url: https://cacoo.com/
+  tags:
+    - Front-end
+    - Diagramming Tools
+- name: canianimate.com
+  url: http://canianimate.com/
+  tags:
+    - Front-end
+    - Animation References
+- name: caniuse.com
+  url: http://caniuse.com/
+  tags:
+    - Front-end
+    - Determine If X Browser Supports X Tools
+- name: cash
+  url: https://github.com/kenwheeler/cash/
+  tags:
+    - Front-end
+    - DOM Libraries/Frameworks
+    - DOM Tools
+- name: CasperJS
+  url: http://casperjs.org/
+  tags:
+    - Front-end
+- name: CasperJS
+  url: http://casperjs.org/
+  tags:
+    - Front-end
+    - Browser Automation
+    - repetition
+- name: Catalog
+  url: https://docs.catalog.style/
+  tags:
+    - Front-end
+    - Style Guide Resources
+- name: catipsum.com
+  url: http://www.catipsum.com/
+  tags:
+    - Front-end
+    - Text
+- name: Cerebral
+  url: https://github.com/cerebral/cerebral
+  tags:
+    - Front-end
+    - State Tools
+- name: Chai
+  url: http://chaijs.com/
+  tags:
+    - Front-end
+    - Testing Assertions for Unit Testing
+- name: Chai
+  url: http://chaijs.com/
+  tags:
+    - Front-end
+    - Testing Assertions for Unit Testing
+    - repetition
+- name: chance
+  url: http://chancejs.com/
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: Charles
+  url: http://www.charlesproxy.com/
+  tags:
+    - Front-end
+    - HTTP/Network Tools
+- name: Chart.js
+  url: http://www.chartjs.org/
+  tags:
+    - Front-end
+    - Widgets & Components
+- name: ChartBlocks
+  url: http://www.chartblocks.com/
+  tags:
+    - Front-end
+    - Services
+- name: Chartist-jsj
+  url: https://github.com/gionkunz/chartist-js
+  tags:
+    - Front-end
+    - Widgets & Components
+- name: Cheerio
+  url: https://github.com/cheeriojs/cheerio
+  tags:
+    - Front-end
+    - Software Testing Frameworks
+    - Testing Tools
+- name: Chrome Accessibility Developer Tools
+  url: https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb
+  tags:
+    - Front-end
+    - Site Scanners
+- name: Chrome Developer Tools (aka DevTools)
+  url: https://developers.google.com/web/tools/?hl=en
+  tags:
+    - Front-end
+    - Browser Development/Debug Tools
+- name: Chrome DevTools Network Panel
+  url: https://developers.google.com/web/tools/chrome-devtools/profile/network-performance/resource-loading
+  tags:
+    - Front-end
+    - HTTP/Network Tools
+- name: Chrome DevTools Timeline
+  url: https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/timeline-tool
+  tags:
+    - Front-end
+    - DOM Performance Tools
+- name: ChromeVox
+  url: http://www.chromevox.com/
+  tags:
+    - Front-end
+    - Screen Readers
+- name: CircleCI
+  url: https://circleci.com/
+  tags:
+    - Front-end
+    - Deployment Tools
+- name: clean-css
+  url: https://github.com/jakubpawlowicz/clean-css
+  tags:
+    - Front-end
+    - Optimizer
+- name: clipboard.js
+  url: http://zenorocha.github.io/clipboard.js/
+  tags:
+    - Front-end
+    - DOM Utilities
+- name: Closure Compiler
+  url: https://developers.google.com/closure/compiler/
+  tags:
+    - Front-end
+    - Optimizer
+- name: Cockpit
+  url: https://getcockpit.com/
+  tags:
+    - Front-end
+    - Self-hosted Headless CMS Tools
+- name: cocoon.io
+  url: https://cocoon.io/
+  tags:
+    - Front-end
+- name: Codeanywhere
+  url: https://codeanywhere.com/
+  tags:
+    - Front-end
+    - Online Code Editors
+- name: Codebase
+  url: https://www.codebasehq.com/
+  tags:
+    - Front-end
+    - Project Management & Code Hosting Tools
+- name: CodeKit
+  url: http://incident57.com/codekit/
+  tags:
+    - Front-end
+    - GUI Development/Build Tools
+- name: CodePen
+  url: http://codepen.io/
+  tags:
+    - Front-end
+- name: codeSandbox
+  url: https://codesandbox.io/
+  tags:
+    - Front-end
+    - Online Code Editors
+- name: CodeSandbox
+  url: https://codesandbox.io/
+  tags:
+    - Front-end
+    - Sharable/Runnable Code Editors
+    - repetition
+- name: Codeship
+  url: https://codeship.com/
+  tags:
+    - Front-end
+    - Deployment Tools
+- name: Color Ratio
+  url: http://leaverou.github.io/contrast-ratio/
+  tags:
+    - Front-end
+    - Color Contrast Testers
+- name: Color Safe
+  url: http://colorsafe.co/
+  tags:
+    - Front-end
+    - Color Contrast Testers
+- name: Colorable
+  url: http://jxnblk.com/colorable/demos/text/
+  tags:
+    - Front-end
+    - Color Contrast Testers
+- name: Colorable Matrix
+  url: http://jxnblk.com/colorable/demos/matrix/
+  tags:
+    - Front-end
+    - Color Contrast Testers
+- name: Command Line API Reference
+  url: https://developers.google.com/web/tools/javascript/command-line/command-line-reference?hl=en
+  tags:
+    - Front-end
+    - Browser Development/Debug Tools
+- name: Conceptboard
+  url: https://conceptboard.com/
+  tags:
+    - Front-end
+    - ""
+- name: Concise
+  url: http://concisecss.com/
+  tags:
+    - Front-end
+    - CSS Frameworks
+- name: console-polyfill
+  url: https://github.com/paulmillr/console-polyfill
+  tags:
+    - Front-end
+    - Broad Browser Polyfills/Shims
+- name: Contentful
+  url: https://www.contentful.com/
+  tags:
+    - Front-end
+    - Headless CMS Tools
+    - Content Management Hosted/API Tools
+- name: Coveralls
+  url: https://coveralls.io/
+  tags:
+    - Front-end
+    - Visualization, Static Analysis, Complexity, Coverage Tools
+- name: create-react-app
+  url: https://github.com/facebookincubator/create-react-app
+  tags:
+    - Front-end
+    - Front-End App Frameworks
+    - App Frameworks Tools
+- name: CrossBrowserTesting.com
+  url: http://crossbrowsertesting.com/
+  tags:
+    - Front-end
+    - Hosted Testing/Automation for Browsers
+- name: CrossBrowserTesting.com
+  url: http://crossbrowsertesting.com/
+  tags:
+    - Front-end
+    - Hosted Testing/Automation for Browsers
+    - repetition
+- name: CSS Arrow Please
+  url: http://cssarrowplease.com/
+  tags:
+    - Front-end
+    - Online Creation/Generation/Experimentation Tools
+- name: CSS Cheat Sheet
+  url: https://adam-marsden.co.uk/css-cheat-sheet/
+  tags:
+    - Front-end
+    - References
+- name: CSS code guide
+  url: http://codeguide.co/#css
+  tags:
+    - Front-end
+    - Authoring/Architecting Conventions
+- name: CSS Cursors
+  url: http://csscursor.info/
+  tags:
+    - Front-end
+    - References
+- name: CSS Indexes
+  url: https://drafts.csswg.org/indexes/
+  tags:
+    - Front-end
+    - References
+  desc: A listing of every term defined by CSS specs
+- name: CSS Lint
+  url: http://csslint.net/
+  tags:
+    - Front-end
+    - Linting/Hinting
+- name: CSS Matic
+  url: http://www.cssmatic.com/
+  tags:
+    - Front-end
+    - Online Creation/Generation/Experimentation Tools
+- name: CSS Tricks Almanac
+  url: https://css-tricks.com/almanac/
+  tags:
+    - Front-end
+    - References
+- name: CSS TRIGGERS...A GAME OF LAYOUT, PAINT, AND COMPOSITE
+  url: http://csstriggers.com/
+  tags:
+    - Front-end
+    - References
+- name: css-architecture
+  url: https://github.com/jareware/css-architecture
+  tags:
+    - Front-end
+    - Authoring/Architecting Conventions
+- name: CSS-Tricks Image Resources
+  url: https://css-tricks.com/sites-with-high-quality-photos-you-can-use-for-free/
+  tags:
+    - Front-end
+    - Images
+    - Placeholder Content Tools
+- name: css3clickchart.com
+  url: http://css3clickchart.com/
+  tags:
+    - Front-end
+    - References
+- name: css3test.com
+  url: http://css3test.com/
+  tags:
+    - Front-end
+    - References
+- name: css4 Rocks
+  url: http://css4.rocks/
+  tags:
+    - Front-end
+    - References
+- name: css4-selectors.com
+  url: http://css4-selectors.com/
+  tags:
+    - Front-end
+    - References
+- name: CSScomb
+  url: https://github.com/csscomb/csscomb.js
+  tags:
+    - Front-end
+    - Code Formatter/Beautifier
+- name: CSSfmt
+  url: https://github.com/morishitter/cssfmt
+  tags:
+    - Front-end
+    - Code Formatter/Beautifier
+- name: cssguidelin.es
+  url: http://cssguidelin.es/
+  tags:
+    - Front-end
+    - Authoring/Architecting Conventions
+- name: cssnano
+  url: http://cssnano.co/
+  tags:
+    - Front-end
+    - Optimizer
+- name: cssnext
+  url: http://cssnext.io/
+  tags:
+    - Front-end
+    - Transpiling
+- name: CSSO
+  url: http://css.github.io/csso/
+  tags:
+    - Front-end
+    - Optimizer
+- name: cssreference.io
+  url: http://cssreference.io/
+  tags:
+    - Front-end
+    - References
+- name: cssvalues.com
+  url: http://cssvalues.com/
+  tags:
+    - Front-end
+    - References
+- name: CuratedSEOTools
+  url: https://curatedseotools.com/
+  tags:
+    - Front-end
+    - SEO Tools
+  desc: Curated directory of the best SEO tools
+- name: Cypress
+  url: https://www.cypress.io/
+  tags:
+    - Front-end
+    - Integration/Functional Testing
+- name: d3
+  url: http://d3js.org/
+  tags:
+    - Front-end
+    - JS Libraries
+    - Data Visualization Tools
+- name: d3
+  url: http://d3js.org/
+  tags:
+    - Front-end
+    - SVG
+    - repetition
+- name: Dash
+  url: https://kapeli.com/dash
+  tags:
+    - Front-end
+    - Doc/API Browsing Tools
+    - Doc/API Browsing Tools
+- name: Datadog
+  url: https://www.datadoghq.com/
+  tags:
+    - Front-end
+    - Reporting
+    - Performance Tools
+- name: Datawrapper
+  url: https://datawrapper.de/
+  tags:
+    - Front-end
+    - Services
+- name: date-fns
+  url: https://date-fns.org/
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: Dato CMS
+  url: https://www.datocms.com/
+  tags:
+    - Front-end
+    - Static CMS Tools
+- name: dCodes
+  url: http://www.dcodes.net/2/docs/index.html
+  tags:
+    - Front-end
+    - HTML Templates/Boilerplates/Starter Kits
+    - HTML Tools
+- name: debuggex
+  url: https://www.debuggex.com/
+  tags:
+    - Front-end
+    - Online Regular Expression Editors/Visual Tools
+- name: DefiantJS
+  url: http://www.defiantjs.com/
+  tags:
+    - Front-end
+    - Query Tools
+- name: Deploybot
+  url: https://deploybot.com/
+  tags:
+    - Front-end
+    - Deployment Tools
+- name: Deployhq
+  url: https://www.deployhq.com/
+  tags:
+    - Front-end
+    - Deployment Tools
+- name: DeskGap
+  url: https://deskgap.com/
+  tags:
+    - Front-end
+    - Native Desktop App Frameworks
+- name: DevDocs
+  url: http://devdocs.io/
+  tags:
+    - Front-end
+    - Doc/API Browsing Tools
+    - Doc/API Browsing Tools
+- name: devhints.io
+  url: https://devhints.io/
+  tags:
+    - Front-end
+    - Cheatsheets
+- name: Dexie.js
+  url: http://www.dexie.org/
+  tags:
+    - Front-end
+    - Front-End Data Storage Tools
+- name: diff.io
+  url: https://diff.io/
+  tags:
+    - Front-end
+    - UI Testing Tools
+- name: DigitalOcean
+  url: https://digitalocean.com/
+  tags:
+    - Front-end
+    - General
+    - Hosting Tools
+- name: dinero
+  url: https://sarahdayan.github.io/dinero.js/module-Dinero.html
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: Directus 7 App
+  url: https://directus.io/
+  tags:
+    - Front-end
+    - Self-hosted Headless CMS Tools
+- name: documentjs
+  url: https://documentjs.com/
+  tags:
+    - Front-end
+    - Documentation Generation Tools
+- name: docz
+  url: https://www.docz.site/
+  tags:
+    - Front-end
+    - Documentation Generation Tools
+- name: DOM Browser Support
+  url: http://www.webbrowsercompatibility.com/dom/desktop/
+  tags:
+    - Front-end
+    - References
+- name: DOM Events Browser Support
+  url: http://www.webbrowsercompatibility.com/dom-events/desktop/
+  tags:
+    - Front-end
+    - References
+- name: DOM Monster
+  url: http://mir.aculo.us/dom-monster/
+  tags:
+    - Front-end
+    - DOM Performance Tools
+- name: dom-shims
+  url: https://github.com/necolas/dom-shims
+  tags:
+    - Front-end
+    - DOM Polyfills/Shims
+- name: DOMPurify
+  url: https://github.com/cure53/DOMPurify
+  tags:
+    - Front-end
+    - Coding Tool
+    - Security Tools
+- name: doT.js
+  url: http://olado.github.io/doT/
+  tags:
+    - Front-end
+    - Just Templating
+    - Templating/Data Binding Tools
+- name: draw.io
+  url: https://www.draw.io/
+  tags:
+    - Front-end
+    - Diagramming Tools
+- name: Dynamics.js
+  url: http://dynamicsjs.com/
+  tags:
+    - Front-end
+    - CSS and JS Utilities
+    - Animation Tools
+- name: EaselJS
+  url: https://github.com/CreateJS/EaselJS
+  tags:
+    - Front-end
+    - Canvas
+- name: Electron
+  url: http://electron.atom.io/
+  tags:
+    - Front-end
+    - Native Desktop App Frameworks
+- name: Element attributes
+  url: https://html.spec.whatwg.org/multipage/indices.html#attributes-3
+  tags:
+    - Front-end
+    - References
+- name: Elements
+  url: https://html.spec.whatwg.org/multipage/indices.html#elements-3
+  tags:
+    - Front-end
+    - References
+- name: Email-Boilerplate
+  url: https://github.com/seanpowell/Email-Boilerplate
+  tags:
+    - Front-end
+    - HTML Templates/Boilerplates/Starter Kits
+    - HTML Tools
+- name: Ember
+  url: http://emberjs.com/
+  tags:
+    - Front-end
+    - Front-End App Frameworks
+    - App Frameworks Tools
+- name: Ember Inspector
+  url: https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi?hl=en
+  tags:
+    - Front-end
+    - Front-End App Frameworks
+    - App Frameworks Tools
+- name: embercli
+  url: https://ember-cli.com/
+  tags:
+    - Front-end
+    - Front-End App Frameworks
+    - App Frameworks Tools
+- name: Emmet
+  url: http://emmet.io/
+  tags:
+    - Front-end
+    - Workflow
+- name: Emotion
+  url: https://emotion.sh/docs/introduction
+  tags:
+    - Front-end
+    - CSS in JS
+- name: Enable accessibility panel in Chrome dev tools
+  url: https://umaar.com/dev-tips/101-accessibility-inspection/
+  tags:
+    - Front-end
+    - Articles
+- name: Enjoy CSS
+  url: http://enjoycss.com/
+  tags:
+    - Front-end
+    - Online Creation/Generation/Experimentation Tools
+- name: Enzyme
+  url: https://github.com/airbnb/enzyme
+  tags:
+    - Front-end
+    - Software Testing Frameworks
+    - Testing Tools
+- name: Epoch
+  url: http://epochjs.github.io/epoch/
+  tags:
+    - Front-end
+    - Widgets & Components
+- name: Eric Meyer's “Reset CSS” 2.0
+  url: https://meyerweb.com/eric/tools/css/reset/
+  tags:
+    - Front-end
+- name: errorception
+  url: https://errorception.com/
+  tags:
+    - Front-end
+    - JavaScript Error Reporting/Monitoring
+- name: ESDoc
+  url: https://github.com/esdoc/esdoc
+  tags:
+    - Front-end
+    - Documentation Generation Tools
+- name: esformatter
+  url: https://github.com/millermedeiros/esformatter#esformatterformatstr-optsstring
+  tags:
+    - Front-end
+    - Code Formater/Beautifier
+- name: eslint
+  url: http://eslint.org/
+  tags:
+    - Front-end
+    - Linting/Hinting & Style Linter
+- name: Esprima
+  url: http://esprima.org/
+  tags:
+    - Front-end
+    - Visualization, Static Analysis, Complexity, Coverage Tools
+- name: Events
+  url: https://html.spec.whatwg.org/#events-2
+  tags:
+    - Front-end
+    - References
+- name: expect.js
+  url: https://github.com/Automattic/expect.js
+  tags:
+    - Front-end
+    - Testing Assertions for Unit Testing
+- name: expect.js
+  url: https://github.com/Automattic/expect.js
+  tags:
+    - Front-end
+    - Testing Assertions for Unit Testing
+    - repetition
+- name: Expresso App
+  url: http://www.expresso-app.org/
+  tags:
+    - Front-end
+    - Readability Testers
+- name: ExtReact
+  url: https://www.sencha.com/products/extreact/#app
+  tags:
+    - Front-end
+    - React Specific, On Web Platform
+- name: Fabric
+  url: https://developer.microsoft.com/en-us/fabric
+  tags:
+    - Front-end
+    - React Specific, On Web Platform
+- name: Fabric.js
+  url: http://fabricjs.com/
+  tags:
+    - Front-end
+    - General
+    - Graphics Tools
+- name: FakeJSON
+  url: https://fakejson.com/
+  tags:
+    - Front-end
+    - Online JSON Mocking API Tools
+- name: Falcor
+  url: https://netflix.github.io/falcor/
+  tags:
+    - Front-end
+    - Data/back-end
+- name: Feature.js
+  url: http://featurejs.com/
+  tags:
+    - Front-end
+    - Determine If X Browser Supports X
+    - JS Utilities
+- name: fetch
+  url: https://github.com/github/fetch
+  tags:
+    - Front-end
+    - Broad Browser Polyfills/Shims
+- name: FillText.com
+  url: http://www.filltext.com/
+  tags:
+    - Front-end
+    - Online JSON Mocking API Tools
+- name: Finance.js
+  url: http://financejs.org/
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: Firebase
+  url: https://www.firebase.com/index.html
+  tags:
+    - Front-end
+    - BAAS
+    - Back-end/API tools
+- name: Firebase Hosting
+  url: https://firebase.google.com/docs/hosting/
+  tags:
+    - Front-end
+    - Static
+- name: Firefox Developer Tools
+  url: https://developer.mozilla.org/en-US/docs/Tools
+  tags:
+    - Front-end
+    - Browser Development/Debug Tools
+- name: Firefox Platform Status
+  url: https://platform-status.mozilla.org/
+  tags:
+    - Front-end
+    - Determine If X Browser Supports X Tools
+  desc: Implementation & standardization roadmap for web platform features
+- name: flexplorer
+  url: http://bennettfeely.com/flexplorer/
+  tags:
+    - Front-end
+    - Online Creation/Generation/Experimentation Tools
+- name: Flow
+  url: https://flowtype.org/
+  tags:
+    - Front-end
+    - Type Checking
+- name: Flutter
+  url: https://flutter.io/
+  tags:
+    - Front-end
+- name: forestry.io
+  url: https://forestry.io/
+  tags:
+    - Front-end
+    - Static CMS Tools
+- name: Forge
+  url: https://getforge.com/
+  tags:
+    - Front-end
+    - Static
+- name: format.js
+  url: http://formatjs.io/
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: Foundation
+  url: http://foundation.zurb.com/
+  tags:
+    - Front-end
+    - CSS Frameworks
+- name: freactal
+  url: https://github.com/FormidableLabs/freactal
+  tags:
+    - Front-end
+    - State Tools
+- name: Front-End Performance Checklist 2019 [PDF, Apple Pages, MS Word]
+  url: https://www.smashingmagazine.com/2019/01/front-end-performance-checklist-2019-pdf-pages/
+  tags:
+    - Front-end
+    - Performance
+- name: frontendtools.com
+  url: http://frontendtools.com/
+  tags:
+    - Front-end
+    - Tools for Finding Tools
+- name: Frontify
+  url: https://frontify.com/
+  tags:
+    - Front-end
+    - Style Guide Resources
+- name: FTPLOY
+  url: http://ftploy.com/
+  tags:
+    - Front-end
+    - Deployment Tools
+- name: Fusebox
+  url: https://fuse-box.org/
+  tags:
+    - Front-end
+    - Module Loading/Bundling Tools
+- name: FusionCharts
+  url: http://www.fusioncharts.com/
+  tags:
+    - Front-end
+    - Widgets & Components
+- name: Getting Started with ARIA
+  url: http://a11yproject.com/posts/getting-started-aria/
+  tags:
+    - Front-end
+    - Articles
+- name: Ghost Inspector
+  url: https://ghostinspector.com/
+  tags:
+    - Front-end
+    - Hosted Testing/Automation for Browsers
+- name: Ghost Inspector
+  url: https://ghostinspector.com/
+  tags:
+    - Front-end
+    - UI Testing Tools
+    - repetition
+- name: Github
+  url: https://github.com/
+  tags:
+    - Front-end
+    - Project Management & Code Hosting Tools
+- name: GitLab
+  url: https://about.gitlab.com/
+  tags:
+    - Front-end
+    - Project Management & Code Hosting Tools
+- name: Gitter
+  url: https://gitter.im/
+  tags:
+    - Front-end
+- name: gliffy
+  url: https://www.gliffy.com/products/online/
+  tags:
+    - Front-end
+    - Diagramming Tools
+- name: glitch
+  url: https://glitch.com/
+  tags:
+    - Front-end
+- name: Google Charts
+  url: https://developers.google.com/chart/interactive/docs/
+  tags:
+    - Front-end
+    - Widgets & Components
+- name: Google Webmasters Search Console
+  url: https://www.google.com/webmasters/
+  tags:
+    - Front-end
+    - SEO Tools
+    - SEO Tools
+- name: Grammarly
+  url: https://www.grammarly.com/
+  tags:
+    - Front-end
+    - Readability Testers
+- name: GraphicsJS
+  url: http://www.graphicsjs.org/
+  tags:
+    - Front-end
+    - SVG
+- name: GraphQL
+  url: http://graphql.org/
+  tags:
+    - Front-end
+    - Data/back-end
+- name: GreenSock-JS
+  url: http://greensock.com/
+  tags:
+    - Front-end
+    - CSS and JS Utilities
+    - Animation Tools
+- name: gremlins.js
+  url: https://github.com/marmelab/gremlins.js
+  tags:
+    - Front-end
+    - UI Testing Tools
+- name: GTmetrix
+  url: https://gtmetrix.com/
+  tags:
+    - Front-end
+    - Reporting
+    - Performance Tools
+- name: Gulp
+  url: http://gulpjs.com/
+  tags:
+    - Front-end
+    - Tasking Tools
+    - Tasking Tools
+- name: HEAD
+  url: https://gethead.info/
+  tags:
+    - Front-end
+    - References
+  desc: |-
+    A free guide to
+    elements
+- name: Headless
+  url: https://www.headless.rest/
+  tags:
+    - Front-end
+    - Headless CMS Tools
+    - Content Management Hosted/API Tools
+- name: Headless Chromium
+  url: https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md
+  tags:
+    - Front-end
+    - Headless Browsers
+- name: headless CMS
+  url: https://headlesscms.org/
+  tags:
+    - Front-end
+    - Site Generator Listings
+    - Headless CMS Tools
+- name: Hemingway App
+  url: http://www.hemingwayapp.com/
+  tags:
+    - Front-end
+    - Readability Testers
+- name: Highcharts
+  url: http://www.highcharts.com/
+  tags:
+    - Front-end
+    - Widgets & Components
+- name: History.js
+  url: https://github.com/browserstate/history.js
+  tags:
+    - Front-end
+    - JS Utilities
+    - Fix Browsers
+    - Browser Tools
+- name: Honeybadger
+  url: https://www.honeybadger.io/
+  tags:
+    - Front-end
+    - JavaScript Error Reporting/Monitoring
+- name: Hoodie
+  url: http://hood.ie/
+  tags:
+    - Front-end
+    - Offline Tools
+- name: Howler.js
+  url: https://howlerjs.com/
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: HTML 5 Outliner
+  url: https://gsnedders.html5.org/outliner/
+  tags:
+    - Front-end
+    - HTML Outliner
+- name: HTML Arrows
+  url: http://htmlarrows.com/
+  tags:
+    - Front-end
+    - References
+- name: HTML Code Guide
+  url: http://codeguide.co/#html
+  tags:
+    - Front-end
+    - Authoring Conventions
+- name: HTML Entity Lookup
+  url: http://entity-lookup.leftlogic.com/
+  tags:
+    - Front-end
+    - References
+- name: HTML Interfaces Browser Support
+  url: http://www.webbrowsercompatibility.com/html-interfaces/desktop/
+  tags:
+    - Front-end
+    - References
+- name: HTML Minifier
+  url: http://kangax.github.io/html-minifier/
+  tags:
+    - Front-end
+    - Optimizer
+- name: html-inspector
+  url: https://github.com/philipwalton/html-inspector
+  tags:
+    - Front-end
+    - Linting/Hinting
+- name: html2canvas
+  url: https://github.com/niklasvh/html2canvas
+  tags:
+    - Front-end
+    - JS Utilities
+    - Fix Browsers
+    - Browser Tools
+- name: HTML5 Boilerplate
+  url: https://html5boilerplate.com/
+  tags:
+    - Front-end
+    - HTML Templates/Boilerplates/Starter Kits
+    - HTML Tools
+- name: HTML5 Bones
+  url: http://html5bones.com/
+  tags:
+    - Front-end
+    - HTML Templates/Boilerplates/Starter Kits
+    - HTML Tools
+- name: HTML5 Cross Browser Polyfills
+  url: https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills
+  tags:
+    - Front-end
+    - Broad Browser Polyfills/Shims
+- name: HTML5 Please
+  url: http://html5please.com/
+  tags:
+    - Front-end
+    - Determine If X Browser Supports X Tools
+- name: HTML5 Security Cheatsheet
+  url: https://html5sec.org/
+  tags:
+    - Front-end
+    - References
+- name: HTML5 Test
+  url: https://html5test.com/
+  tags:
+    - Front-end
+    - Determine If X Browser Supports X Tools
+- name: html5shiv
+  url: https://github.com/aFarkas/html5shiv
+  tags:
+    - Front-end
+    - HTML Polyfill
+- name: HTMLHint
+  url: https://htmlhint.io/
+  tags:
+    - Front-end
+    - Linting/Hinting
+- name: htmlreference.io
+  url: http://htmlreference.io/
+  tags:
+    - Front-end
+    - References
+- name: http://browserl.ist/
+  url: http://browserl.ist/?q=%3E+2%25
+  tags:
+    - Front-end
+- name: Idiomatic CSS
+  url: https://github.com/necolas/idiomatic-css
+  tags:
+    - Front-end
+    - Authoring/Architecting Conventions
+- name: imagemin
+  url: https://github.com/imagemin/imagemin
+  tags:
+    - Front-end
+    - JS Tools
+- name: ImageOptim-CLI
+  url: http://jamiemason.github.io/ImageOptim-CLI/
+  tags:
+    - Front-end
+    - JS Tools
+- name: ImmortalDB
+  url: https://github.com/gruns/ImmortalDB
+  tags:
+    - Front-end
+    - Front-End Data Storage Tools
+- name: immutable
+  url: https://facebook.github.io/immutable-js/
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: inferno
+  url: https://infernojs.org/
+  tags:
+    - Front-end
+    - Templating and Reactive Data Binding
+- name: infogr.am
+  url: https://infogr.am/
+  tags:
+    - Front-end
+    - Services
+- name: Insomnia
+  url: https://insomnia.rest/
+  tags:
+    - Front-end
+    - HTTP/Network Tools
+- name: Intern
+  url: https://theintern.github.io/
+  tags:
+    - Front-end
+    - Software Testing Frameworks
+    - Testing Tools
+- name: InVision
+  url: http://www.invisionapp.com/
+  tags:
+    - Front-end
+    - ""
+- name: ionic
+  url: http://ionicframework.com/
+  tags:
+    - Front-end
+- name: ionic hub
+  url: http://ionic.io/
+  tags:
+    - Front-end
+- name: is.js
+  url: http://arasatasaygin.github.io/is.js/
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: istanbul
+  url: https://github.com/gotwarlost/istanbul
+  tags:
+    - Front-end
+    - Visualization, Static Analysis, Complexity, Coverage Tools
+- name: ITCSS
+  url: https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
+  tags:
+    - Front-end
+    - Architecting CSS
+- name: iwanttouse.com
+  url: http://www.iwanttouse.com/
+  tags:
+    - Front-end
+    - Determine If X Browser Supports X Tools
+- name: Jam API
+  url: https://github.com/dinubs/jam-api
+  tags:
+    - Front-end
+    - Online JSON Mocking API Tools
+- name: Jasmine
+  url: http://jasmine.github.io/
+  tags:
+    - Front-end
+    - Unit Testing
+- name: Jasmine
+  url: http://jasmine.github.io/
+  tags:
+    - Front-end
+    - Unit Testing
+    - repetition
+- name: Javascript Obfuscator
+  url: http://www.javascriptobfuscator.com/
+  tags:
+    - Front-end
+    - Obfuscate
+- name: javascripting.com
+  url: http://www.javascripting.com/
+  tags:
+    - Front-end
+    - Tools for Finding Tools
+- name: JAWS
+  url: http://www.freedomscientific.com/Products/Blindness/JAWS
+  tags:
+    - Front-end
+    - Screen Readers
+- name: Jest
+  url: http://facebook.github.io/jest/
+  tags:
+    - Front-end
+    - Software Testing Frameworks
+    - Testing Tools
+- name: jetpack
+  url: https://github.com/KidkArolis/jetpack
+  tags:
+    - Front-end
+    - Module Loading/Bundling Tools
+- name: jQuery
+  url: http://jquery.com/
+  tags:
+    - Front-end
+    - DOM Libraries/Frameworks
+    - DOM Tools
+- name: js-beautify
+  url: http://jsbeautifier.org/
+  tags:
+    - Front-end
+    - Code Formater/Beautifier
+- name: js-framework-benchmark
+  url: https://github.com/krausest/js-framework-benchmark
+  tags:
+    - Front-end
+    - Performance
+- name: js.coach
+  url: https://js.coach/
+  tags:
+    - Front-end
+    - Tools for Finding Tools
+- name: jsbin.com
+  url: http://jsbin.com/
+  tags:
+    - Front-end
+- name: JScrambler
+  url: https://jscrambler.com/
+  tags:
+    - Front-end
+    - Obfuscate
+- name: JSDoc
+  url: http://usejsdoc.org/
+  tags:
+    - Front-end
+    - Documentation Generation Tools
+- name: jsdom
+  url: https://github.com/tmpvar/jsdom
+  tags:
+    - Front-end
+    - Virtual DOM
+- name: jsfiddle.net
+  url: http://jsfiddle.net/
+  tags:
+    - Front-end
+- name: jsfmt
+  url: http://rdio.github.io/jsfmt/
+  tags:
+    - Front-end
+    - Code Formater/Beautifier
+- name: JSON Editor Online
+  url: https://jsoneditoronline.org/
+  tags:
+    - Front-end
+    - Online Editors
+    - JSON Tools
+- name: JSON Formatter & Validator
+  url: https://jsonformatter.curiousconcept.com/
+  tags:
+    - Front-end
+    - Formatter & Validator
+- name: JSON Generator
+  url: http://www.json-generator.com/
+  tags:
+    - Front-end
+    - Generating Mock JSON Tools
+- name: JSON Mask
+  url: https://github.com/nemtsov/json-mask
+  tags:
+    - Front-end
+    - Query Tools
+- name: json-schema.org
+  url: http://json-schema.org/
+  tags:
+    - Front-end
+    - JSON Specifications/Schemas
+- name: json-server
+  url: https://github.com/typicode/json-server
+  tags:
+    - Front-end
+    - Local JSON Mocking API Tools
+- name: jsonbin.io
+  url: https://jsonbin.io/
+  tags:
+    - Front-end
+    - Online JSON Mocking API Tools
+- name: jsonbin.org
+  url: https://jsonbin.org/
+  tags:
+    - Front-end
+    - Online JSON Mocking API Tools
+- name: jsonformatter.org
+  url: http://jsonformatter.org/
+  tags:
+    - Front-end
+    - Formatter & Validator
+- name: JSONmate
+  url: http://jsonmate.com/
+  tags:
+    - Front-end
+    - Online Editors
+    - JSON Tools
+- name: JSONPlaceholder
+  url: http://jsonplaceholder.typicode.com/
+  tags:
+    - Front-end
+    - Online JSON Mocking API Tools
+- name: jsonschema.net
+  url: http://jsonschema.net/
+  tags:
+    - Front-end
+    - JSON Specifications/Schemas
+- name: jsperf.com
+  url: https://jsperf.com/
+  tags:
+    - Front-end
+    - Performance Testing
+- name: JSter
+  url: http://jster.net/
+  tags:
+    - Front-end
+    - Tools for Finding Tools
+- name: JSUI
+  url: https://github.com/kitze/JSUI
+  tags:
+    - Front-end
+    - JavaScript App Manager
+- name: JSX
+  url: https://facebook.github.io/jsx/
+  tags:
+    - Front-end
+    - Templating to Virtual DOM
+- name: Justinmind
+  url: http://www.justinmind.com/
+  tags:
+    - Front-end
+    - ""
+    - Prototyping & Wireframing Tools
+- name: Kakapo.js
+  url: http://devlucky.github.io/kakapo-js
+  tags:
+    - Front-end
+    - Test Spies, Stubs, and Mocks for Unit Testing
+- name: Kakapo.js
+  url: http://devlucky.github.io/kakapo-js
+  tags:
+    - Front-end
+    - Test Spies, Stubs, and Mocks for Unit Testing
+    - repetition
+- name: Kendo UI
+  url: http://www.telerik.com/kendo-ui
+  tags:
+    - Front-end
+    - On Web Platform
+    - UI Widget & Component Toolkits
+- name: Keyboard & UI Shortcuts Reference
+  url: https://developers.google.com/web/tools/iterate/inspect-styles/shortcuts
+  tags:
+    - Front-end
+    - Browser Development/Debug Tools
+- name: Keyboard Event Viewer
+  url: http://w3c.github.io/uievents/tools/key-event-viewer.html
+  tags:
+    - Front-end
+    - DOM Event Tools
+- name: Keypress
+  url: http://dmauro.github.io/Keypress/
+  tags:
+    - Front-end
+    - DOM Utilities
+- name: Keyword Tool
+  url: http://keywordtool.io/
+  tags:
+    - Front-end
+    - SEO Tools
+    - SEO Tools
+- name: KoalaApp
+  url: http://koala-app.com/
+  tags:
+    - Front-end
+    - GUI Development/Build Tools
+- name: kony
+  url: http://www.kony.com/products/mobility-platform
+  tags:
+    - Front-end
+- name: Kute.js
+  url: http://thednp.github.io/kute.js/
+  tags:
+    - Front-end
+    - CSS and JS Utilities
+    - Animation Tools
+- name: libraries.io
+  url: https://libraries.io/
+  tags:
+    - Front-end
+    - Tools for Finding Tools
+- name: LibreStock
+  url: http://librestock.com/
+  tags:
+    - Front-end
+    - Images
+    - Placeholder Content Tools
+- name: LightCMS
+  url: https://www.lightcms.com/
+  tags:
+    - Front-end
+    - Hosted CMS
+- name: lighthouse
+  url: https://developers.google.com/web/tools/lighthouse/
+  tags:
+    - Front-end
+    - Progressive Web App Tools
+- name: Lighthouse
+  url: https://developers.google.com/web/tools/lighthouse/
+  tags:
+    - Front-end
+    - Reporting
+    - Performance Tools
+    - repetition
+- name: LocalForage
+  url: https://localforage.github.io/localForage/
+  tags:
+    - Front-end
+    - Front-End Data Storage Tools
+- name: lodash
+  url: https://lodash.com/
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: LokiJS
+  url: http://lokijs.org/#/
+  tags:
+    - Front-end
+    - Front-End Data Storage Tools
+- name: Lorem Pixel
+  url: http://lorempixel.com/
+  tags:
+    - Front-end
+    - Images
+    - Placeholder Content Tools
+- name: Lovefield
+  url: https://google.github.io/lovefield
+  tags:
+    - Front-end
+    - Front-End Data Storage Tools
+- name: lowdb
+  url: https://github.com/typicode/lowdb
+  tags:
+    - Front-end
+    - Front-End Data Storage Tools
+- name: Luxon
+  url: https://moment.github.io/luxon/
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: Magic
+  url: https://github.com/miniMAC/magic
+  tags:
+    - Front-end
+    - CSS and JS Utilities
+    - Animation Tools
+- name: MaintainableCSS
+  url: http://maintainablecss.com/
+  tags:
+    - Front-end
+    - Authoring/Architecting Conventions
+- name: majestic
+  url: https://majestic.debuggable.io/
+  tags:
+    - Front-end
+    - Software Testing Frameworks
+    - Testing Tools
+- name: Markdown
+  url: http://daringfireball.net/projects/markdown/
+  tags:
+    - Front-end
+    - Transpiling
+- name: Marvel
+  url: https://marvelapp.com/
+  tags:
+    - Front-end
+    - ""
+- name: Material Design Lite (MDL)
+  url: http://www.getmdl.io/index.html
+  tags:
+    - Front-end
+    - CSS Frameworks
+- name: Material ui
+  url: http://material-ui.com/
+  tags:
+    - Front-end
+    - React Specific, On Web Platform
+- name: Materialize
+  url: http://materializecss.com/
+  tags:
+    - Front-end
+    - On Web Platform
+    - UI Widget & Component Toolkits
+- name: Math.js
+  url: http://mathjs.org/
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: Mattermost
+  url: https://mattermost.org/
+  tags:
+    - Front-end
+    - Collaboration & Communication Tools
+- name: MDN Accessibility Guide
+  url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility
+  tags:
+    - Front-end
+    - Articles
+- name: MDN Browser Object Model
+  url: https://developer.mozilla.org/en-US/docs/Web/API/Window
+  tags:
+    - Front-end
+    - References
+- name: MDN CSS Reference
+  url: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+  tags:
+    - Front-end
+    - References
+- name: MDN Document Object Model
+  url: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+  tags:
+    - Front-end
+    - References
+- name: MDN Document Object Model (DOM)
+  url: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+  tags:
+    - Front-end
+    - References
+- name: MDN Event reference
+  url: https://developer.mozilla.org/en-US/docs/Web/Events
+  tags:
+    - Front-end
+    - References
+- name: Meet the Ipsums
+  url: http://meettheipsums.com/
+  tags:
+    - Front-end
+    - Text
+- name: Metro UI
+  url: http://metroui.org.ua/
+  tags:
+    - Front-end
+    - CSS Frameworks
+- name: Microbundle
+  url: https://github.com/developit/microbundle
+  tags:
+    - Front-end
+    - Module Loading/Bundling Tools
+- name: Micron.js
+  url: https://webkul.github.io/micron/
+  tags:
+    - Front-end
+    - CSS and JS Utilities
+    - Animation Tools
+- name: Mini.css
+  url: https://minicss.org/
+  tags:
+    - Front-end
+    - CSS Frameworks
+- name: Mitmproxy
+  url: https://mitmproxy.org/
+  tags:
+    - Front-end
+    - HTTP/Network Tools
+- name: Mobi.css
+  url: http://getmobicss.com/
+  tags:
+    - Front-end
+    - CSS Frameworks
+- name: Mobile boilerplate
+  url: https://html5boilerplate.com/mobile/
+  tags:
+    - Front-end
+    - HTML Templates/Boilerplates/Starter Kits
+    - HTML Tools
+- name: Mobx
+  url: https://mobx.js.org/
+  tags:
+    - Front-end
+    - State Tools
+- name: mobx-state-tree
+  url: https://github.com/mobxjs/mobx-state-tree
+  tags:
+    - Front-end
+    - State Tools
+- name: Mocha
+  url: http://mochajs.org/
+  tags:
+    - Front-end
+    - Unit Testing
+- name: Mocha
+  url: http://mochajs.org/
+  tags:
+    - Front-end
+    - Unit Testing
+    - repetition
+- name: mockable.io
+  url: https://www.mockable.io/
+  tags:
+    - Front-end
+    - Online JSON Mocking API Tools
+- name: mockapi.io
+  url: http://www.mockapi.io/
+  tags:
+    - Front-end
+    - Online JSON Mocking API Tools
+- name: Mockaroo
+  url: https://www.mockaroo.com/
+  tags:
+    - Front-end
+    - Generating Mock JSON Tools
+- name: mockuphone.com
+  url: http://mockuphone.com/
+  tags:
+    - Front-end
+    - Device Mockups
+- name: Mocky
+  url: http://www.mocky.io/
+  tags:
+    - Front-end
+    - Online JSON Mocking API Tools
+- name: Modernizr
+  url: https://modernizr.com/
+  tags:
+    - Front-end
+    - Determine If X Browser Supports X
+    - JS Utilities
+- name: Moment.js
+  url: http://momentjs.com/
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: Monaca
+  url: https://monaca.io/
+  tags:
+    - Front-end
+- name: MongoDB Stitch
+  url: https://www.mongodb.com/cloud/stitch
+  tags:
+    - Front-end
+    - BAAS
+    - Back-end/API tools
+- name: Monkey Test It
+  url: https://monkeytest.it/
+  tags:
+    - Front-end
+    - Automated dead link and error detectors
+- name: Moqups
+  url: https://moqups.com/
+  tags:
+    - Front-end
+    - ""
+    - Prototyping & Wireframing Tools
+- name: Motion
+  url: http://mojs.io/
+  tags:
+    - Front-end
+    - CSS and JS Utilities
+    - Animation Tools
+- name: MS Office
+  url: https://support.office.com/en-us/article/Test-your-document-s-readability-0adc0e9a-b3fb-4bde-85f4-c9e88926c6aa
+  tags:
+    - Front-end
+    - Readability Testers
+- name: MSDN Document Object Model (DOM)
+  url: https://msdn.microsoft.com/en-us/library/hh772384%28v=vs.85%29.aspx
+  tags:
+    - Front-end
+    - References
+- name: myBalsamiq
+  url: https://balsamiq.cloud/
+  tags:
+    - Front-end
+    - ""
+- name: myth
+  url: http://www.myth.io/
+  tags:
+    - Front-end
+    - Transpiling
+- name: nanoJS
+  url: https://vladocar.github.io/nanoJS/
+  tags:
+    - Front-end
+    - DOM Libraries/Frameworks
+    - DOM Tools
+- name: NativeScript
+  url: https://www.nativescript.org/
+  tags:
+    - Front-end
+- name: NeDB
+  url: https://github.com/louischatriot/nedb
+  tags:
+    - Front-end
+    - Front-End Data Storage Tools
+- name: nerv
+  url: https://github.com/NervJS/nerv
+  tags:
+    - Front-end
+    - Templating and Reactive Data Binding
+- name: netlify
+  url: https://www.netlify.com/
+  tags:
+    - Front-end
+    - Static
+- name: Netsparker
+  url: https://www.netsparker.com/
+  tags:
+    - Front-end
+    - Security Scanners/Evaluators/Testers
+- name: Neutralino.js
+  url: https://neutralino.js.org/
+  tags:
+    - Front-end
+    - Native Desktop App Frameworks
+- name: New Relic
+  url: http://newrelic.com/
+  tags:
+    - Front-end
+    - General Monitoring Tools
+- name: Nightcloud.io
+  url: http://nightcloud.io/
+  tags:
+    - Front-end
+    - Hosted Testing/Automation for Browsers
+- name: Nightcloud.io
+  url: http://nightcloud.io/
+  tags:
+    - Front-end
+    - Hosted Testing/Automation for Browsers
+    - repetition
+- name: Nightmare
+  url: https://github.com/segmentio/nightmare
+  tags:
+    - Front-end
+- name: Nightmare
+  url: https://github.com/segmentio/nightmare
+  tags:
+    - Front-end
+    - Browser Automation
+    - repetition
+- name: Nightwatch
+  url: http://nightwatchjs.org/
+  tags:
+    - Front-end
+    - Integration/Functional Testing
+- name: NoCoffee
+  url: https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl
+  tags:
+    - Front-end
+    - Low-Vision Simulators
+- name: Normalize
+  url: https://necolas.github.io/normalize.css/
+  tags:
+    - Front-end
+- name: Now
+  url: https://zeit.co/now
+  tags:
+    - Front-end
+    - Deployment Tools
+- name: NPM
+  url: https://www.npmjs.com/
+  tags:
+    - Front-end
+    - Module/Package Repository Tools
+- name: npms
+  url: https://npms.io/
+  tags:
+    - Front-end
+    - Tools for Finding Tools
+- name: Numeral.js
+  url: http://numeraljs.com/
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: Nunjuncks
+  url: http://mozilla.github.io/nunjucks/
+  tags:
+    - Front-end
+    - Just Templating
+    - Templating/Data Binding Tools
+- name: NVDA
+  url: https://www.nvaccess.org/
+  tags:
+    - Front-end
+    - Screen Readers
+- name: NW.js
+  url: https://github.com/nwjs/nw.js
+  tags:
+    - Front-end
+    - Native Desktop App Frameworks
+- name: ObjectPath
+  url: http://objectpath.org/
+  tags:
+    - Front-end
+    - Query Tools
+- name: Office UI Fabric
+  url: http://dev.office.com/fabric
+  tags:
+    - Front-end
+    - On Web Platform
+    - UI Widget & Component Toolkits
+- name: Offline.js
+  url: http://github.hubspot.com/offline/docs/welcome/
+  tags:
+    - Front-end
+    - Offline Tools
+- name: Okta
+  url: https://developer.okta.com/
+  tags:
+    - Front-end
+    - User Management as a Service
+- name: onsen.io
+  url: http://onsen.io/
+  tags:
+    - Front-end
+- name: OOCSS
+  url: http://oocss.org/
+  tags:
+    - Front-end
+    - Architecting CSS
+- name: optimize-js
+  url: https://github.com/nolanlawson/optimize-js
+  tags:
+    - Front-end
+    - Optimizer
+- name: OWASP ZAP
+  url: https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
+  tags:
+    - Front-end
+    - Security Scanners/Evaluators/Testers
+- name: PaizaCloud
+  url: https://paiza.cloud/
+  tags:
+    - Front-end
+    - Online Code Editors
+- name: Paper.js
+  url: http://paperjs.org/
+  tags:
+    - Front-end
+    - Canvas
+- name: Parcel
+  url: https://parceljs.org/
+  tags:
+    - Front-end
+    - Module Loading/Bundling Tools
+- name: patternify.com
+  url: http://patternify.com/
+  tags:
+    - Front-end
+    - Online Creation/Generation/Experimentation Tools
+- name: patternizer.com
+  url: http://patternizer.com/
+  tags:
+    - Front-end
+    - Online Creation/Generation/Experimentation Tools
+- name: Paw
+  url: https://paw.cloud/
+  tags:
+    - Front-end
+    - HTTP/Network Tools
+- name: Per-Panel Documentation
+  url: https://developers.google.com/web/tools/chrome-devtools/#docs
+  tags:
+    - Front-end
+    - Browser Development/Debug Tools
+- name: Percy
+  url: https://percy.io/
+  tags:
+    - Front-end
+    - UI Testing Tools
+- name: performancebudget.io
+  url: http://www.performancebudget.io/
+  tags:
+    - Front-end
+    - Budgeting
+- name: PhantomCSS
+  url: https://github.com/Huddle/PhantomCSS
+  tags:
+    - Front-end
+    - UI Testing Tools
+- name: Photon
+  url: http://photonkit.com/
+  tags:
+    - Front-end
+    - Native Desktop/Laptop/Netbook Apps via Web Platform
+- name: Picnic
+  url: http://picnicss.com/
+  tags:
+    - Front-end
+    - CSS Frameworks
+- name: Pingdom
+  url: https://www.pingdom.com/
+  tags:
+    - Front-end
+    - General Monitoring Tools
+- name: pixi.js
+  url: https://github.com/pixijs/pixi.js
+  tags:
+    - Front-end
+    - WebGL
+- name: placehold.it
+  url: http://placehold.it/
+  tags:
+    - Front-end
+    - Images
+    - Placeholder Content Tools
+- name: Placeimg
+  url: http://placeimg.com/
+  tags:
+    - Front-end
+    - Images
+    - Placeholder Content Tools
+- name: placeit.net
+  url: https://placeit.net/
+  tags:
+    - Front-end
+    - Device Mockups
+- name: Platform.js
+  url: https://github.com/bestiejs/platform.js
+  tags:
+    - Front-end
+    - JS Utilities
+    - Fix Browsers
+    - Browser Tools
+- name: pleeease.io
+  url: http://pleeease.io/
+  tags:
+    - Front-end
+    - Transpiling
+- name: plotly
+  url: https://plot.ly/
+  tags:
+    - Front-end
+    - Services
+- name: PNPM
+  url: https://pnpm.js.org/
+  tags:
+    - Front-end
+    - Module/Package Repository Tools
+- name: Poi
+  url: https://poi.js.org/
+  tags:
+    - Front-end
+    - Module Loading/Bundling Tools
+- name: "Pointer Events Polyfill: a unified event system for the web platform"
+  url: https://github.com/jquery/PEP
+  tags:
+    - Front-end
+    - DOM Polyfills/Shims
+- name: Polly.JS
+  url: https://netflix.github.io/pollyjs/#/README
+  tags:
+    - Front-end
+    - HTTP Stubbing
+- name: Polymer
+  url: https://www.polymer-project.org/1.0/
+  tags:
+    - Front-end
+    - Front-End App Frameworks
+    - App Frameworks Tools
+- name: Popmotion
+  url: https://popmotion.io/
+  tags:
+    - Front-end
+    - CSS and JS Utilities
+    - Animation Tools
+- name: PostCSS
+  url: https://github.com/postcss/postcss
+  tags:
+    - Front-end
+    - Transpiling
+- name: Postman
+  url: https://www.getpostman.com/
+  tags:
+    - Front-end
+    - HTTP/Network Tools
+- name: Pouchdb
+  url: http://pouchdb.com/
+  tags:
+    - Front-end
+    - Front-End Data Storage Tools
+- name: PouchDB
+  url: http://pouchdb.com/
+  tags:
+    - Front-end
+    - Offline Tools
+    - repetition
+- name: Practical ARIA Examples
+  url: http://heydonworks.com/practical_aria_examples/
+  tags:
+    - Front-end
+    - Articles
+- name: preact
+  url: https://preactjs.com/
+  tags:
+    - Front-end
+    - Templating and Reactive Data Binding
+- name: Prepack
+  url: https://prepack.io/
+  tags:
+    - Front-end
+    - Optimizer
+- name: Prepros
+  url: https://prepros.io/
+  tags:
+    - Front-end
+    - GUI Development/Build Tools
+- name: prettier
+  url: https://github.com/jlongster/prettier
+  tags:
+    - Front-end
+    - Code Formater/Beautifier
+- name: Principles of Writing Consistent, Idiomatic HTML
+  url: https://github.com/necolas/idiomatic-html
+  tags:
+    - Front-end
+    - Authoring Conventions
+- name: prismic.io
+  url: https://prismic.io/
+  tags:
+    - Front-end
+    - Headless CMS Tools
+    - Content Management Hosted/API Tools
+- name: Progressive Web App Checklist
+  url: https://developers.google.com/web/progressive-web-apps/checklist
+  tags:
+    - Front-end
+    - Progressive Web App Tools
+- name: proto.io
+  url: https://proto.io/
+  tags:
+    - Front-end
+    - ""
+    - Prototyping & Wireframing Tools
+- name: proton
+  url: https://proton-native.js.org/#/
+  tags:
+    - Front-end
+    - Native Desktop App Frameworks
+- name: Pug
+  url: https://pugjs.org/api/getting-started.html
+  tags:
+    - Front-end
+    - Transpiling
+- name: Pure.css
+  url: http://purecss.io/
+  tags:
+    - Front-end
+    - CSS Frameworks
+- name: purgecss
+  url: https://github.com/FullHuman/purgecss
+  tags:
+    - Front-end
+    - Optimizer
+- name: Pusher
+  url: https://pusher.com/
+  tags:
+    - Front-end
+    - BAAS
+    - Back-end/API tools
+- name: ractive.js
+  url: https://ractive.js.org/
+  tags:
+    - Front-end
+    - Templating and Reactive Data Binding
+- name: Radium
+  url: https://formidable.com/open-source/radium/
+  tags:
+    - Front-end
+    - CSS in JS
+- name: Ramda
+  url: http://ramdajs.com/
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: RANDOM USER GENERATOR
+  url: https://randomuser.me/
+  tags:
+    - Front-end
+    - Online JSON Mocking API Tools
+- name: randomuser.me
+  url: https://randomuser.me/
+  tags:
+    - Front-end
+    - User Data
+- name: Raphaël
+  url: http://dmitrybaranovskiy.github.io/raphael/
+  tags:
+    - Front-end
+    - SVG
+- name: Ratchet
+  url: http://goratchet.com/
+  tags:
+    - Front-end
+    - Mobile Only CSS Frameworks
+- name: rax
+  url: https://github.com/alibaba/rax
+  tags:
+    - Front-end
+    - Templating and Reactive Data Binding
+- name: Raygun
+  url: https://raygun.io/
+  tags:
+    - Front-end
+    - JavaScript Error Reporting/Monitoring
+- name: React
+  url: http://facebook.github.io/react/
+  tags:
+    - Front-end
+    - Front-End App Frameworks
+    - App Frameworks Tools
+- name: React Developer Tools
+  url: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+  tags:
+    - Front-end
+    - Front-End App Frameworks
+    - App Frameworks Tools
+- name: React Native
+  url: https://facebook.github.io/react-native/
+  tags:
+    - Front-end
+- name: React UI Components for OS X El Capitan and Windows 10
+  url: http://gabrielbull.github.io/react-desktop/
+  tags:
+    - Front-end
+    - Native Desktop/Laptop/Netbook Apps via Web Platform
+- name: react.js
+  url: https://facebook.github.io/react/index.html
+  tags:
+    - Front-end
+    - Templating and Reactive Data Binding
+- name: Readability Score
+  url: https://readability-score.com/text/
+  tags:
+    - Front-end
+    - Readability Testers
+- name: Redux
+  url: https://redux.js.org/
+  tags:
+    - Front-end
+    - State Tools
+- name: Reframing Accessibility for the Web
+  url: http://alistapart.com/article/reframing-accessibility-for-the-web
+  tags:
+    - Front-end
+    - Articles
+- name: regex101
+  url: https://regex101.com/
+  tags:
+    - Front-end
+    - Online Regular Expression Editors/Visual Tools
+- name: regexper
+  url: http://regexper.com/
+  tags:
+    - Front-end
+    - Online Regular Expression Editors/Visual Tools
+- name: RegExr
+  url: http://regexr.com/
+  tags:
+    - Front-end
+    - Online Regular Expression Editors/Visual Tools
+- name: Relay
+  url: https://facebook.github.io/relay/
+  tags:
+    - Front-end
+    - Data/back-end
+- name: restdb.io
+  url: https://restdb.io/
+  tags:
+    - Front-end
+    - BAAS
+    - Back-end/API tools
+- name: rework
+  url: https://github.com/reworkcss/rework
+  tags:
+    - Front-end
+    - Transpiling
+- name: riot
+  url: http://riotjs.com/
+  tags:
+    - Front-end
+    - Templating and Reactive Data Binding
+- name: Riot
+  url: http://riotjs.com/
+  tags:
+    - Front-end
+    - Front-End App Frameworks
+    - App Frameworks Tools
+    - repetition
+- name: Rivets.js
+  url: http://rivetsjs.com/
+  tags:
+    - Front-end
+    - Templating and Reactive Data Binding
+- name: Rollbar
+  url: https://rollbar.com/
+  tags:
+    - Front-end
+    - JavaScript Error Reporting/Monitoring
+- name: Rollup
+  url: http://rollupjs.org/
+  tags:
+    - Front-end
+    - Module Loading/Bundling Tools
+- name: rscss
+  url: http://rscss.io/
+  tags:
+    - Front-end
+    - Architecting CSS
+- name: RxDB
+  url: https://pubkey.github.io/rxdb/install.html
+  tags:
+    - Front-end
+    - Front-End Data Storage Tools
+- name: RxDB
+  url: https://github.com/pubkey/rxdb
+  tags:
+    - Front-end
+    - Data/back-end
+    - repetition
+- name: RxJS
+  url: http://reactivex.io/rxjs/
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: Safari Web Inspector
+  url: https://developer.apple.com/safari/tools/
+  tags:
+    - Front-end
+    - Browser Development/Debug Tools
+- name: sanitize.css
+  url: https://github.com/jonathantneal/sanitize.css
+  tags:
+    - Front-end
+- name: Satyr
+  url: http://satyr.io/
+  tags:
+    - Front-end
+    - Images
+    - Placeholder Content Tools
+- name: Sauce Labs
+  url: https://saucelabs.com/
+  tags:
+    - Front-end
+    - Hosted Testing/Automation for Browsers
+- name: Sauce Labs
+  url: https://saucelabs.com/
+  tags:
+    - Front-end
+    - Hosted Testing/Automation for Browsers
+    - repetition
+- name: SC5 STYLE GUIDE GENERATOR
+  url: http://styleguide.sc5.io/
+  tags:
+    - Front-end
+    - Style Guide Resources
+- name: Scalable Modular Architecture for CSS (SMACSS)
+  url: https://frontendmasters.com/courses/smacss/
+  tags:
+    - Front-end
+    - Architecting CSS
+- name: screenhero
+  url: https://screenhero.com/
+  tags:
+    - Front-end
+    - Collaboration & Communication Tools
+- name: scw
+  url: https://swc-project.github.io/
+  tags:
+    - Front-end
+    - Transpiling
+- name: SEE
+  url: https://chrome.google.com/webstore/detail/see/dkihcccbkkakkbpikjmpnbamkgbjfdcn
+  tags:
+    - Front-end
+    - Low-Vision Simulators
+- name: Semantic UI
+  url: http://semantic-ui.com/
+  tags:
+    - Front-end
+    - CSS Frameworks
+- name: Semantic UI
+  url: http://semantic-ui.com/
+  tags:
+    - Front-end
+    - On Web Platform
+    - UI Widget & Component Toolkits
+    - repetition
+- name: Semantic-UI-React
+  url: https://react.semantic-ui.com/
+  tags:
+    - Front-end
+    - React Specific, On Web Platform
+- name: Semaphore
+  url: https://semaphoreci.com/
+  tags:
+    - Front-end
+    - Deployment Tools
+- name: Sentry
+  url: https://getsentry.com/welcome/
+  tags:
+    - Front-end
+    - JavaScript Error Reporting/Monitoring
+- name: SEO Tools
+  url: http://backlinko.com/seo-tools
+  tags:
+    - Front-end
+    - SEO Tools
+  desc: The Complete List
+- name: Settings
+  url: https://developer.chrome.com/devtools/docs/settings
+  tags:
+    - Front-end
+    - Browser Development/Debug Tools
+- name: Shed
+  url: http://tedconf.github.io/shed-css/
+  tags:
+    - Front-end
+    - CSS Utilities
+    - CSS Tools
+- name: Shoelace
+  url: https://shoelace.style/
+  tags:
+    - Front-end
+    - CSS Frameworks
+- name: should.js
+  url: http://shouldjs.github.io/
+  tags:
+    - Front-end
+    - Testing Assertions for Unit Testing
+- name: should.js
+  url: http://shouldjs.github.io/
+  tags:
+    - Front-end
+    - Testing Assertions for Unit Testing
+    - repetition
+- name: sigmajs
+  url: http://sigmajs.org/
+  tags:
+    - Front-end
+    - JS Libraries
+    - Data Visualization Tools
+- name: sinon.js
+  url: http://sinonjs.org/
+  tags:
+    - Front-end
+    - Test Spies, Stubs, and Mocks for Unit Testing
+- name: sinon.js
+  url: http://sinonjs.org/
+  tags:
+    - Front-end
+    - Test Spies, Stubs, and Mocks for Unit Testing
+    - repetition
+- name: siteleaf
+  url: https://www.siteleaf.com/
+  tags:
+    - Front-end
+    - Static CMS Tools
+- name: sitespeed.io
+  url: https://www.sitespeed.io/
+  tags:
+    - Front-end
+    - Reporting
+    - Performance Tools
+- name: Skeleton
+  url: http://getskeleton.com/
+  tags:
+    - Front-end
+    - CSS Utilities
+    - CSS Tools
+- name: sketchboard.io
+  url: https://sketchboard.io/
+  tags:
+    - Front-end
+    - Diagramming Tools
+- name: Slack
+  url: https://slack.com/
+  tags:
+    - Front-end
+    - Collaboration & Communication Tools
+- name: slimerjs
+  url: http://slimerjs.org/
+  tags:
+    - Front-end
+    - Headless Browsers
+- name: SMACSS
+  url: https://smacss.com/
+  tags:
+    - Front-end
+    - Architecting CSS
+- name: Snap.svg
+  url: http://snapsvg.io/
+  tags:
+    - Front-end
+    - SVG
+- name: socket.io
+  url: http://socket.io/
+  tags:
+    - Front-end
+    - Broad Browser Polyfills/Shims
+- name: SockJS
+  url: https://github.com/sockjs/sockjs-client
+  tags:
+    - Front-end
+    - Broad Browser Polyfills/Shims
+- name: Sonarwhal
+  url: https://sonarwhal.com/
+  tags:
+    - Front-end
+    - Reporting
+    - Performance Tools
+- name: Spectre.css
+  url: https://picturepan2.github.io/spectre/
+  tags:
+    - Front-end
+    - CSS Frameworks
+- name: Spectrum
+  url: https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb
+  tags:
+    - Front-end
+    - Low-Vision Simulators
+- name: Speed Curve
+  url: https://speedcurve.com/
+  tags:
+    - Front-end
+    - Reporting
+    - Performance Tools
+- name: Springloops
+  url: http://www.springloops.io/
+  tags:
+    - Front-end
+    - Deployment Tools
+- name: StackBliz
+  url: https://stackblitz.com/
+  tags:
+    - Front-end
+    - Online Code Editors
+- name: stackshare.io
+  url: http://stackshare.io/
+  tags:
+    - Front-end
+    - Tools for Finding Tools
+- name: Standard
+  url: https://github.com/feross/eslint-config-standard
+  tags:
+    - Front-end
+    - Authoring Convention Tools
+  desc: ESLint Shareable Config
+- name: Standards for Developing Flexible, Durable, and Sustainable HTML and CSS
+  url: http://mdo.github.io/code-guide/
+  tags:
+    - Front-end
+    - Authoring/Architecting Conventions
+- name: staticgen.com
+  url: https://www.staticgen.com/
+  tags:
+    - Front-end
+    - Site Generator Listings
+    - Static Site Generators Tools
+- name: staticsitegenerators.net
+  url: https://staticsitegenerators.net/
+  tags:
+    - Front-end
+    - Site Generator Listings
+    - Static Site Generators Tools
+- name: styled components
+  url: https://www.styled-components.com/
+  tags:
+    - Front-end
+    - CSS in JS
+- name: styleguide-generators
+  url: https://github.com/davidhund/styleguide-generators
+  tags:
+    - Front-end
+    - Style Guide Resources
+- name: stylelint
+  url: http://stylelint.io/
+  tags:
+    - Front-end
+    - Linting/Hinting
+- name: Sublime Text
+  url: http://www.sublimetext.com/
+  tags:
+    - Front-end
+    - Code Editors
+- name: sucrase
+  url: https://sucrase.io/
+  tags:
+    - Front-end
+    - Transpiling
+- name: SUIT CSS
+  url: http://suitcss.github.io/
+  tags:
+    - Front-end
+    - Architecting CSS
+- name: Surge
+  url: https://surge.sh/
+  tags:
+    - Front-end
+    - Static
+- name: Surreal CMS
+  url: http://www.surrealcms.com/
+  tags:
+    - Front-end
+    - Hosted CMS
+- name: svg.js
+  url: http://svgjs.com/
+  tags:
+    - Front-end
+    - SVG
+- name: tablesgenerator.com
+  url: http://www.tablesgenerator.com/
+  tags:
+    - Front-end
+    - Online Creation/Generation/Experimentation Tools
+- name: tabris.js
+  url: https://tabrisjs.com/
+  tags:
+    - Front-end
+- name: Tachyons
+  url: https://github.com/tachyons-css/tachyons/
+  tags:
+    - Front-end
+    - CSS Utilities
+    - CSS Tools
+- name: Tailwind CSS
+  url: https://tailwindcss.com/
+  tags:
+    - Front-end
+    - CSS Utilities
+    - CSS Tools
+- name: Tape
+  url: https://github.com/substack/tape
+  tags:
+    - Front-end
+    - Unit Testing
+- name: Tape
+  url: https://github.com/substack/tape
+  tags:
+    - Front-end
+    - Unit Testing
+    - repetition
+- name: Tenon Accessibility Tool
+  url: https://tenon.io/
+  tags:
+    - Front-end
+    - Site Scanners
+- name: Tern
+  url: https://ternjs.net/
+  tags:
+    - Front-end
+    - Code-analysis Engine
+- name: Terser
+  url: https://github.com/terser-js/terser
+  tags:
+    - Front-end
+    - Optimizer
+- name: TestCafe
+  url: https://github.com/DevExpress/testcafe
+  tags:
+    - Front-end
+- name: TestCafe
+  url: https://github.com/DevExpress/testcafe
+  tags:
+    - Front-end
+    - Browser Automation
+    - repetition
+- name: Testing Library
+  url: https://testing-library.com/
+  tags:
+    - Front-end
+    - Software Testing Frameworks
+    - Testing Tools
+- name: Tether
+  url: http://tether.io/docs/welcome/
+  tags:
+    - Front-end
+    - DOM Utilities
+- name: TheoremJS
+  url: https://theorem.js.org/
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: three.js
+  url: http://threejs.org/
+  tags:
+    - Front-end
+    - WebGL
+- name: TrackJS
+  url: https://trackjs.com/
+  tags:
+    - Front-end
+    - JavaScript Error Reporting/Monitoring
+- name: transform-www
+  url: https://transform.now.sh/
+  tags:
+    - Front-end
+    - Transforming JavaScript Objects Tool
+- name: Travis CI
+  url: http://docs.travis-ci.com/
+  tags:
+    - Front-end
+    - Deployment Tools
+- name: trigger.io
+  url: https://trigger.io/how-it-works/
+  tags:
+    - Front-end
+- name: TweenJS
+  url: https://github.com/CreateJS/TweenJS
+  tags:
+    - Front-end
+    - CSS and JS Utilities
+    - Animation Tools
+- name: Two.js
+  url: http://jonobr1.github.io/two.js/#introduction
+  tags:
+    - Front-end
+    - General
+    - Graphics Tools
+- name: TypeScript
+  url: https://www.typescriptlang.org/
+  tags:
+    - Front-end
+    - Transpiling / Type Checking
+- name: UiKit
+  url: https://getuikit.com/
+  tags:
+    - Front-end
+    - On Web Platform
+    - UI Widget & Component Toolkits
+- name: uinames.com
+  url: https://uinames.com/
+  tags:
+    - Front-end
+    - User Data
+- name: Ultimate CSS Gradient Generator
+  url: http://www.colorzilla.com/gradient-editor/
+  tags:
+    - Front-end
+    - Online Creation/Generation/Experimentation Tools
+- name: Umbrella JS
+  url: http://umbrellajs.com/
+  tags:
+    - Front-end
+    - DOM Libraries/Frameworks
+    - DOM Tools
+- name: Unfuddle
+  url: https://unfuddle.com/
+  tags:
+    - Front-end
+    - Project Management & Code Hosting Tools
+- name: Unheap
+  url: http://www.unheap.com/
+  tags:
+    - Front-end
+    - Tools for Finding Tools
+- name: unistore
+  url: https://github.com/developit/unistore
+  tags:
+    - Front-end
+    - State Tools
+- name: Unsplash
+  url: https://unsplash.it/
+  tags:
+    - Front-end
+    - Images
+    - Placeholder Content Tools
+- name: unstated
+  url: https://github.com/jamiebuilds/unstated
+  tags:
+    - Front-end
+    - State Tools
+- name: Uptime Robot
+  url: https://uptimerobot.com/
+  tags:
+    - Front-end
+    - Uptime Monitoring
+    - Site/App Monitoring Tools
+- name: Uptrends
+  url: https://www.uptrends.com/
+  tags:
+    - Front-end
+    - General Monitoring Tools
+- name: upup
+  url: https://www.talater.com/upup/
+  tags:
+    - Front-end
+    - Offline Tools
+- name: URI.js
+  url: http://medialize.github.io/URI.js/
+  tags:
+    - Front-end
+    - JS Utilities
+    - Fix Browsers
+    - Browser Tools
+- name: UXPin
+  url: http://www.uxpin.com/
+  tags:
+    - Front-end
+    - ""
+    - Prototyping & Wireframing Tools
+- name: Varvy SEO tool
+  url: https://varvy.com/tools/
+  tags:
+    - Front-end
+    - SEO Tools
+    - SEO Tools
+- name: Velocity
+  url: https://velocity.silverlakesoftware.com/
+  tags:
+    - Front-end
+    - Doc/API Browsing Tools
+    - Doc/API Browsing Tools
+- name: Velocity.js
+  url: http://julian.com/research/velocity/
+  tags:
+    - Front-end
+    - CSS and JS Utilities
+    - Animation Tools
+- name: virtual-dom
+  url: https://github.com/Matt-Esch/virtual-dom
+  tags:
+    - Front-end
+    - Virtual DOM
+- name: Visual Studio Code
+  url: https://code.visualstudio.com/
+  tags:
+    - Front-end
+    - Code Editors
+- name: voca
+  url: https://vocajs.com/
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: VoiceOver
+  url: http://www.apple.com/accessibility/
+  tags:
+    - Front-end
+    - Screen Readers
+- name: Vorlon.js
+  url: http://vorlonjs.com/
+  tags:
+    - Front-end
+    - Browser Development/Debug Tools
+- name: vue-cli
+  url: https://github.com/vuejs/vue-cli
+  tags:
+    - Front-end
+    - Front-End App Frameworks
+    - App Frameworks Tools
+- name: vue.js
+  url: http://vuejs.org/
+  tags:
+    - Front-end
+    - Templating and Reactive Data Binding
+- name: Vue.js
+  url: http://vuejs.org/
+  tags:
+    - Front-end
+    - Front-End App Frameworks
+    - App Frameworks Tools
+    - repetition
+- name: Vue.js devtools
+  url: https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en
+  tags:
+    - Front-end
+    - Front-End App Frameworks
+    - App Frameworks Tools
+- name: Vuex
+  url: https://vuex.vuejs.org/en/
+  tags:
+    - Front-end
+    - State Tools
+- name: wait
+  url: https://github.com/elving/wait
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: WAVE Accessibility Tool
+  url: http://wave.webaim.org/
+  tags:
+    - Front-end
+    - Site Scanners
+- name: Web Page Test
+  url: http://www.webpagetest.org/
+  tags:
+    - Front-end
+    - Reporting
+    - Performance Tools
+- name: web-animations-js
+  url: https://github.com/web-animations/web-animations-js
+  tags:
+    - Front-end
+    - Polyfills/Shims
+- name: web-platform-tests dashboard
+  url: https://wpt.fyi/
+  tags:
+    - Front-end
+    - Determine If X Browser Supports X Tools
+- name: webcomponents.js
+  url: https://github.com/WebComponents/webcomponentsjs
+  tags:
+    - Front-end
+    - Broad Browser Polyfills/Shims
+- name: WebDriver.io
+  url: http://webdriver.io/
+  tags:
+    - Front-end
+    - Integration/Functional Testing
+- name: WebFaction
+  url: https://www.webfaction.com/
+  tags:
+    - Front-end
+    - General
+    - Hosting Tools
+- name: webhint.io
+  url: https://webhint.io/
+  tags:
+    - Front-end
+    - Reporting
+    - Performance Tools
+- name: webhook.com
+  url: http://www.webhook.com/
+  tags:
+    - Front-end
+    - Static CMS Tools
+- name: Webix
+  url: http://webix.com/
+  tags:
+    - Front-end
+    - On Web Platform
+    - UI Widget & Component Toolkits
+- name: webpack
+  url: https://webpack.js.org/
+  tags:
+    - Front-end
+    - Module Loading/Bundling Tools
+- name: Websecurify
+  url: http://www.websecurify.com/
+  tags:
+    - Front-end
+    - Security Scanners/Evaluators/Testers
+- name: webshim
+  url: https://afarkas.github.io/webshim/demos/
+  tags:
+    - Front-end
+    - Broad Browser Polyfills/Shims
+- name: WebStorm
+  url: https://www.jetbrains.com/webstorm/whatsnew/
+  tags:
+    - Front-end
+    - Code Editors
+- name: weex
+  url: https://weex.apache.org/
+  tags:
+    - Front-end
+- name: What’s next for CSS?
+  url: https://cssdb.org/
+  tags:
+    - Front-end
+    - References
+- name: whatwebcando.today
+  url: https://whatwebcando.today/
+  tags:
+    - Front-end
+    - Determine If X Browser Supports X Tools
+- name: Workbox
+  url: https://developers.google.com/web/tools/workbox/
+  tags:
+    - Front-end
+    - Offline Tools
+- name: xregexp.com
+  url: http://xregexp.com/
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: XSS
+  url: http://jsxss.com/en/index.html
+  tags:
+    - Front-end
+    - Coding Tool
+    - Security Tools
+- name: yarn
+  url: https://yarnpkg.com/
+  tags:
+    - Front-end
+    - Module/Package Repository Tools
+- name: You don't (may not) need Moment.js
+  url: https://github.com/you-dont-need/You-Dont-Need-Momentjs
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: You Don't Need jQuery
+  url: https://github.com/oneuijs/You-Dont-Need-jQuery
+  tags:
+    - Front-end
+    - DOM Libraries/Frameworks
+    - DOM Tools
+- name: You-Dont-Need-Lodash-Underscore
+  url: https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore
+  tags:
+    - Front-end
+    - JS Utilities
+    - JavaScript Tools
+- name: Zeal
+  url: https://zealdocs.org/
+  tags:
+    - Front-end
+    - Doc/API Browsing Tools
+    - Doc/API Browsing Tools
+- name: Zepto
+  url: http://zeptojs.com/
+  tags:
+    - Front-end
+    - DOM Libraries/Frameworks
+    - DOM Tools
+- name: ZingChart
+  url: http://www.zingchart.com/
+  tags:
+    - Front-end
+    - Widgets & Components
+- name: Zombie.js
+  url: http://zombie.js.org/
+  tags:
+    - Front-end
+    - Headless Browsers

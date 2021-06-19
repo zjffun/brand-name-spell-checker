@@ -16,7 +16,7 @@ export default (context: BrandNameSpellChecker) => {
 
       let arr = map.get(innerName);
       if (!arr) {
-        arr = [];
+        arr = [name];
         map.set(innerName, arr);
       }
       arr.push(name);

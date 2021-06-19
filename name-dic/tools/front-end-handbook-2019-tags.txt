@@ -1,0 +1,169 @@
+Front-end
+Tools to browse common developer documents and developer API references.
+5.1 - Doc/API Browsing Tools
+Cheatsheets:
+General SEO Tools:
+5.2 - SEO Tools
+Tools for Finding SEO Tools:
+Creating:
+5.3 - Prototyping & Wireframing Tools
+Collaboration / Presenting:
+5.4 - Diagramming Tools
+5.5 - HTTP/Network Tools
+Code Editors:
+Online Code Editors:
+JS Utilities to fix Browsers:
+5.7 - Browser Tools
+General Reference Tools to Determine If X Browser Supports X:
+Browser Development/Debug Tools:
+JavaScript Utilities to Determine If X Browser Supports X:
+Broad Browser Polyfills/Shims:
+Hosted Testing/Automation for Browsers:
+Headless Browsers:
+Browser Hacks:
+Browser Syncing Tools:
+HTML Templates/Boilerplates/Starter Kits:
+5.8 - HTML Tools
+HTML Polyfill:
+Transpiling:
+References:
+Linting/Hinting:
+Optimizer:
+Online Creation/Generation/Experimentation Tools:
+Authoring Conventions:
+Workflow:
+HTML Outliner:
+CSS Utilities:
+5.9 - CSS Tools
+CSS Frameworks (utilities + UI):
+Mobile Only CSS Frameworks:
+Code Formatter/Beautifier:
+Architecting CSS:
+Authoring/Architecting Conventions:
+Style Guide Resources:
+CSS in JS:
+DOM Libraries/Frameworks:
+5.10 - DOM Tools
+DOM Utilities:
+DOM Event Tools:
+DOM Performance Tools:
+DOM Polyfills/Shims:
+Virtual DOM:
+JS Utilities:
+5.11 - JavaScript Tools
+Transforming JavaScript Objects Tool:
+Transpiling / Type Checking (ES to ES):
+Type Checking (ES to ES):
+Transpiling (ES to ES):
+Code-analysis Engine:
+Linting/Hinting & Style Linter:
+Unit Testing:
+Testing Assertions for Unit Testing:
+Test Spies, Stubs, and Mocks for Unit Testing:
+Code Formater/Beautifier:
+Performance Testing:
+Visualization, Static Analysis, Complexity, Coverage Tools:
+Obfuscate:
+Sharable/Runnable Code Editors:
+Online Regular Expression Editors/Visual Tools:
+Authoring Convention Tools:
+Site Generator Listings:
+5.12 - Headless CMS Tools
+5.13 - Static Site Generators Tools
+Guides
+5.14 - Accessibility Tools
+Site Scanners
+Color Contrast Testers
+Low-Vision Simulators
+Screen Readers
+Readability Testers
+Articles
+Front-End App Frameworks:
+5.15 - App Frameworks (Desktop, Mobile, Tablet, etc.) Tools
+Native Desktop App Frameworks:
+References & demo apps:
+Performance:
+5.16 - JavaScript App Manager
+5.17 - State Tools
+5.18 - Progressive Web App Tools:
+5.19 - GUI Development/Build Tools
+Just Templating:
+5.20 - Templating/Data Binding Tools
+Templating and Reactive Data Binding:
+Templating to Virtual DOM:
+On Web Platform:
+5.21 - UI Widget & Component Toolkits
+React Specific, On Web Platform:
+Native Desktop/Laptop/Netbook Apps via Web Platform (i.e. used with NW.js and Electron):
+JS Libraries:
+5.22 - Data Visualization (e.g., Charts) Tools
+Widgets & Components:
+Services (i.e. hosted data visualization services for embedding and sharing):
+General:
+5.23 - Graphics (e.g., SVG, canvas, webgl) Tools
+Canvas:
+SVG:
+WebGL:
+CSS and JavaScript Utilities:
+5.24 - Animation Tools
+Polyfills/Shims:
+Animation References:
+Online Editors:
+5.25 - JSON Tools
+Formatter & Validator:
+Query Tools:
+Generating Mock JSON Tools:
+Online JSON Mocking API Tools:
+List of public JSON API's:
+Local JSON Mocking API Tools:
+JSON Specifications/Schemas:
+Images:
+5.26 - Placeholder Content Tools
+Device Mockups:
+Text:
+User Data:
+Software Testing Frameworks:
+5.27 - Testing Tools
+Integration/Functional Testing:
+Browser Automation:
+UI Testing Tools:
+Automated dead link and error detectors:
+HTTP Stubbing
+5.28 - Front-End Data Storage Tools (i.e. Data storage solution in the client)
+5.29 - Module Loading/Bundling Tools
+5.30 - Module/Package Repository Tools
+General
+5.31 - Hosting Tools
+Static
+5.32 - Project Management & Code Hosting Tools
+5.33 - Collaboration & Communication Tools
+Headless CMS Tools:
+5.34 - Content Management Hosted/API Tools
+Self-hosted Headless CMS Tools:
+Hosted CMS:
+Static CMS Tools:
+Data/back-end as a service aka BAAS:
+5.35 - Back-end/API tools
+Data/back-end
+User Management as a Service:
+Search
+5.36 - Offline Tools
+Coding Tool:
+5.37 - Security Tools
+Security Scanners/Evaluators/Testers:
+Tasking/Build Tools:
+5.38 - Tasking (aka Build) Tools
+Opinionated Tasking/Build pipeline tools:
+5.39 - Deployment Tools
+Uptime Monitoring:
+5.40 - Site/App Monitoring Tools
+General Monitoring Tools:
+5.41 - JavaScript Error Reporting/Monitoring
+Reporting:
+5.42 - Performance Tools
+JS Tools:
+Budgeting:
+References/Docs:
+Checklist:
+5.43 - Tools for Finding Tools
+5.44 - Documentation Generation Tools

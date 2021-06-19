@@ -1,4 +1,4 @@
-import dic from "./programming-languages.dic";
+import dic from "./programming-language.dic";
 
 export default {
   aff: `SET UTF-8`,
