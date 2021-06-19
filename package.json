@@ -1,0 +1,30 @@
+{
+  "name": "name-spell-checker",
+  "description": "✓name-spell-checker   ✗ NameSpellChecker   ✗ name-spell-checker.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --module commonjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjffun/name-spell-checker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zjffun/name-spell-checker/issues"
+  },
+  "homepage": "https://github.com/zjffun/name-spell-checker#readme",
+  "keywords": [],
+  "dependencies": {
+    "name-dic": "./name-dic",
+    "nspell": "^2.1.5",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "@types/nspell": "^2.1.0",
+    "typescript": "^4.3.2"
+  }
+}
