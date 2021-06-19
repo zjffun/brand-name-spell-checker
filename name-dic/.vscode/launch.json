@@ -9,7 +9,7 @@
       "request": "launch",
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/tools/front-end-handbook-2019-clean.js"
+      "program": "${workspaceFolder}/tools/dic-gen.js"
     }
   ]
 }

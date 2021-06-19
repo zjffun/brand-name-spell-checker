@@ -1,15 +1,13 @@
 import BrandNameSpellChecker from "./index";
 import preprocess from "./preprocess";
 
-import frontEnd from "./brand-names/front-end";
-import programmingLanguage from "./brand-names/programming-languages";
+import frontEnd from "name-dic/dist/front-end";
 
 export default (context: BrandNameSpellChecker) => {
   const map = new Map();
   frontEnd.dic
     .trim()
     .split("\n")
-    .concat(programmingLanguage.dic.trim().split("\n"))
     .map((name: string) => name.trim())
     .forEach((name: string) => {
       const innerName = preprocess(name);
