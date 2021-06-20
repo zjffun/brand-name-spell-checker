@@ -2,7 +2,8 @@ import nspell from "nspell";
 import add from "./add";
 import correct from "./correct";
 import getDictionaries from "./get-dictionaries";
-import getInnerBrandNameMap from "./get-inner-brand-name-map";
+import getInnerDictionaries from "./get-inner-dictionaries";
+import getInnerNameMap from "./get-inner-name-map";
 import remove from "./remove";
 import suggest from "./suggest";
 
@@ -30,13 +31,16 @@ class BrandNameSpellChecker {
     } else {
       this.dictionaries = dictionaries;
     }
-    this.nspellInstance = nspell(this.dictionaries);
-    this.innerBrandNameMap = getInnerBrandNameMap(this);
+
+    this.innerDictionaries = getInnerDictionaries(this.dictionaries);
+    this.nameMap = getInnerNameMap(this);
+    this.nspellInstance = nspell(this.innerDictionaries);
   }
 
   nspellInstance: nspell;
   dictionaries: Array<Dictionary>;
-  innerBrandNameMap: Map<string, string[]>;
+  innerDictionaries: Dictionary[];
+  nameMap: Map<string, string[]>;
 
   suggest(str: string): string[] {
     return suggest(this, str);

@@ -4,10 +4,10 @@ import preprocess from "./preprocess";
 export default (context: BrandNameSpellChecker, brandName: string): void => {
   const innerBrandName = preprocess(brandName);
 
-  let arr = context.innerBrandNameMap.get(innerBrandName);
+  let arr = context.nameMap.get(innerBrandName);
   if (!arr) {
     arr = [brandName];
-    context.innerBrandNameMap.set(innerBrandName, arr);
+    context.nameMap.set(innerBrandName, arr);
   }
   arr.push(brandName);
   context.nspellInstance.add(innerBrandName);

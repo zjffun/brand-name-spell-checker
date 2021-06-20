@@ -4,6 +4,6 @@ import preprocess from "./preprocess";
 export default (context: BrandNameSpellChecker, brandName: string): void => {
   const innerBrandName = preprocess(brandName);
 
-  context.innerBrandNameMap.delete(innerBrandName);
+  context.nameMap.delete(innerBrandName);
   context.nspellInstance.remove(innerBrandName);
 };
