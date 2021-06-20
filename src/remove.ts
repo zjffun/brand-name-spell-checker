@@ -1,7 +1,7 @@
-import BrandNameSpellChecker from "./index";
 import getInnerName from "./getInnerName";
+import NameSpellChecker from "./index";
 
-export default (context: BrandNameSpellChecker, name: string): void => {
+export default (context: NameSpellChecker, name: string): void => {
   const innerName = getInnerName(name);
 
   let names = context.innerNameMap.get(innerName);

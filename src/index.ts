@@ -8,18 +8,9 @@ import getInnerNameMap from "./get-inner-name-map";
 import personal from "./personal";
 import remove from "./remove";
 import suggest from "./suggest";
+import { BuiltInDictionary, Dictionary } from "./types";
 
-export interface Dictionary {
-  aff: string;
-  dic: string;
-}
-
-export enum BuiltInDictionary {
-  frontEnd = "frontEnd",
-  programmingLanguages = "programmingLanguages",
-}
-
-class BrandNameSpellChecker {
+class NameSpellChecker {
   static defaultDictionaries = [
     BuiltInDictionary.frontEnd,
     BuiltInDictionary.programmingLanguages,
@@ -27,9 +18,7 @@ class BrandNameSpellChecker {
 
   constructor(dictionaries?: Array<Dictionary | BuiltInDictionary>) {
     if (!dictionaries) {
-      this.dictionaries = getDictionaries(
-        BrandNameSpellChecker.defaultDictionaries
-      );
+      this.dictionaries = getDictionaries(NameSpellChecker.defaultDictionaries);
     } else {
       this.dictionaries = getDictionaries(dictionaries);
     }
@@ -52,25 +41,25 @@ class BrandNameSpellChecker {
     return correct(this, str);
   }
 
-  add(brandName: string): BrandNameSpellChecker {
+  add(brandName: string): NameSpellChecker {
     add(this, brandName);
     return this;
   }
 
-  remove(brandName: string): BrandNameSpellChecker {
+  remove(brandName: string): NameSpellChecker {
     remove(this, brandName);
     return this;
   }
 
-  dictionary(dic: string): BrandNameSpellChecker {
+  dictionary(dic: string): NameSpellChecker {
     dictionary(this, dic);
     return this;
   }
 
-  personal(personalDic: string): BrandNameSpellChecker {
+  personal(personalDic: string): NameSpellChecker {
     personal(this, personalDic);
     return this;
   }
 }
 
-export default BrandNameSpellChecker;
+export default NameSpellChecker;

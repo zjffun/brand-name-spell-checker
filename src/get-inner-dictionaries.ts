@@ -1,5 +1,5 @@
-import { Dictionary } from "./index";
 import getInnerName from "./getInnerName";
+import { Dictionary } from "./types";
 
 export default (dictionaries: Dictionary[]): Dictionary[] => {
   const innerDictionaries: Dictionary[] = [];

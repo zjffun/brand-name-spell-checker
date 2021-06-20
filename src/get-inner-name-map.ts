@@ -1,6 +1,6 @@
-import BrandNameSpellChecker from "./index";
+import NameSpellChecker from "./index";
 
-export default function (context: BrandNameSpellChecker) {
+export default function (context: NameSpellChecker) {
   const map = new Map();
 
   context.dictionaries.forEach(({ dic }, i) => {

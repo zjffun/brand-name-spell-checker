@@ -1,8 +1,8 @@
-import BrandNameSpellChecker from "./index";
 import getInnerName from "./getInnerName";
+import NameSpellChecker from "./index";
 import similarity from "./similarity";
 
-export default (context: BrandNameSpellChecker, str: string): string[] => {
+export default (context: NameSpellChecker, str: string): string[] => {
   const names = [...context.innerNameMap.keys()];
 
   const pstr = getInnerName(str);

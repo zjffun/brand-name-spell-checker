@@ -1,7 +1,8 @@
 import { expect } from "chai";
 import { describe } from "mocha";
 import nspell from "nspell";
-import NameSpellChecker, { BuiltInDictionary } from "../src/index";
+import NameSpellChecker from "../src/index";
+import { BuiltInDictionary } from "../src/types";
 
 const nameSpellChecker = new NameSpellChecker();
 

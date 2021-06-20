@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf dist && rollup -c",
+    "build": "rimraf umd esm && rollup -c",
     "test": "mocha && karma start --single-run",
     "ci-test": "mocha && karma start --single-run --browsers ChromeHeadless"
   },

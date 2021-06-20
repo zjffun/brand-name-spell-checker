@@ -1,5 +1,5 @@
-import frontEnd from "name-dic/dist/front-end.js";
-import { BuiltInDictionary, Dictionary } from "./index";
+import frontEnd from "name-dic/esm/front-end.js";
+import { BuiltInDictionary, Dictionary } from "./types";
 
 export default (arr: Array<Dictionary | BuiltInDictionary>): Dictionary[] => {
   return arr.reduce<Dictionary[]>((prev, cur) => {
