@@ -1,13 +1,13 @@
 import BrandNameSpellChecker from "./index";
-import preprocess from "./preprocess";
-import seam from "./seam";
+import getInnerName from "./getInnerName";
+import similarity from "./similarity";
 
 export default (context: BrandNameSpellChecker, str: string): string[] => {
-  const names = [...context.nameMap.keys()];
+  const names = [...context.innerNameMap.keys()];
 
-  const pstr = preprocess(str);
+  const pstr = getInnerName(str);
 
-  const substrs = names.filter((name: string) => {
+  const substringSuggests = names.filter((name: string) => {
     for (let i = 0; i < name.length; i++) {
       if (name.length > pstr.length) {
         if (name.substring(i).startsWith(pstr)) {
@@ -25,15 +25,15 @@ export default (context: BrandNameSpellChecker, str: string): string[] => {
   });
 
   const nspellSuggests = context.nspellInstance.suggest(pstr);
-  return [
-    ...new Set(
-      substrs.concat(nspellSuggests).reduce<string[]>((prev, cur) => {
-        prev = prev.concat(context.nameMap.get(cur) || []);
-        return prev;
-      }, [])
-    ),
-  ]
-    .map<[number, string]>((d) => [seam(pstr, d), d])
+
+  const suggests = [...new Set(substringSuggests.concat(nspellSuggests))];
+
+  return suggests
+    .reduce<string[]>((prev, cur) => {
+      prev = prev.concat(context.innerNameMap.get(cur) || []);
+      return prev;
+    }, [])
+    .map<[number, string]>((d) => [similarity(pstr, d), d])
     .sort((a, b) => b[0] - a[0])
     .map((d) => d[1]);
 };

@@ -1,8 +1,13 @@
 import BrandNameSpellChecker from "./index";
-import preprocess from "./preprocess";
+import getInnerName from "./getInnerName";
 
 export default (context: BrandNameSpellChecker, str: string): boolean => {
-  const pstr = preprocess(str);
+  const innerStr = getInnerName(str);
 
-  return context.nameMap.has(pstr);
+  const names = context.innerNameMap.get(innerStr);
+  if (names) {
+    return names.includes(str);
+  }
+
+  return false;
 };

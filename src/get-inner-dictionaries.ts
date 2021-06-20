@@ -1,5 +1,5 @@
 import { Dictionary } from "./index";
-import preprocess from "./preprocess";
+import getInnerName from "./getInnerName";
 
 export default (dictionaries: Dictionary[]): Dictionary[] => {
   const innerDictionaries: Dictionary[] = [];
@@ -12,7 +12,7 @@ export default (dictionaries: Dictionary[]): Dictionary[] => {
         if (i === 0) {
           return name;
         }
-        return preprocess(name);
+        return getInnerName(name);
       })
       .join("\n");
 

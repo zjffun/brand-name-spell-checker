@@ -1,14 +1,21 @@
 import BrandNameSpellChecker from "./index";
-import preprocess from "./preprocess";
+import getInnerName from "./getInnerName";
 
-export default (context: BrandNameSpellChecker, brandName: string): void => {
-  const innerBrandName = preprocess(brandName);
+export default (context: BrandNameSpellChecker, name: string): void => {
+  const innerName = getInnerName(name);
 
-  let arr = context.nameMap.get(innerBrandName);
-  if (!arr) {
-    arr = [brandName];
-    context.nameMap.set(innerBrandName, arr);
+  let names = context.innerNameMap.get(innerName);
+
+  if (!names) {
+    names = [name];
+    context.innerNameMap.set(innerName, names);
+    context.nspellInstance.add(innerName);
+    return;
   }
-  arr.push(brandName);
-  context.nspellInstance.add(innerBrandName);
+
+  if (names.includes(name)) {
+    return;
+  }
+
+  names.push(name);
 };
