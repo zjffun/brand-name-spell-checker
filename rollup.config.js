@@ -50,7 +50,7 @@ const configs = [
       typescript(),
       replace({
         preventAssignment: true,
-        values: { "name-dic/esm/front-end.js": "name-dic/cjs/front-end.js" },
+        values: { "name-dic/esm/front-end.js": "name-dic/umd/front-end.js" },
       }),
     ],
   },
@@ -63,9 +63,16 @@ const configs = [
       name: "NameSpellChecker",
       globals: {
         nspell: "nspell",
-        "name-dic/esm/front-end.js": "nameDic.frontEnd",
+        "name-dic/umd/front-end.js": "nameDic.frontEnd",
       },
     }),
+    plugins: [
+      typescript(),
+      replace({
+        preventAssignment: true,
+        values: { "name-dic/esm/front-end.js": "name-dic/umd/front-end.js" },
+      }),
+    ],
   },
 ];
 

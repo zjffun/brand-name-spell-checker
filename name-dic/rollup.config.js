@@ -8,7 +8,7 @@ const configs = [
     output: {
       format: "umd",
       file: "umd/front-end.js",
-      name: "brandName.frontEnd",
+      name: "nameDic.frontEnd",
     },
   },
   {
@@ -23,7 +23,7 @@ const configs = [
     output: {
       format: "umd",
       file: "umd/programming-language.js",
-      name: "brandName.programmingLanguage",
+      name: "nameDic.programmingLanguage",
     },
   },
   {

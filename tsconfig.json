@@ -1,25 +1,12 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "ES5",
     "module": "esnext",
-    "moduleResolution": "node",
-    "importHelpers": true,
     "esModuleInterop": true,
-    "baseUrl": "./",
     "outDir": "dist",
-    "strict": true,
-    "paths": {
-      "@/*": ["src/*"]
-    },
-    "allowSyntheticDefaultImports": true,
-    "lib": ["esnext", "dom"],
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": true,
-    "suppressImplicitAnyIndexErrors": true,
     "allowJs": true,
-    "skipLibCheck": true,
-    "experimentalDecorators": true
+    "downlevelIteration": true
   },
-  "include": ["tests/**/*", "src/**/*", "typings.d.ts"],
+  "include": ["src/**/*", "typings.d.ts"],
   "exclude": ["node_modules", "name-dic"]
 }

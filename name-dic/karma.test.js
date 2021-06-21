@@ -1,5 +1,5 @@
-const frontEnd = brandName.frontEnd;
-const programmingLanguage = brandName.programmingLanguage;
+const frontEnd = nameDic.frontEnd;
+const programmingLanguage = nameDic.programmingLanguage;
 
 describe("brand name", () => {
   it("frontEnd", () => {

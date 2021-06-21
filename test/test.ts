@@ -1,8 +1,6 @@
 import { expect } from "chai";
-import { describe } from "mocha";
 import nspell from "nspell";
-import NameSpellChecker from "../src/index";
-import { BuiltInDictionary } from "../src/types";
+import NameSpellChecker from "../dist/index.cjs.js";
 
 const nameSpellChecker = new NameSpellChecker();
 
@@ -10,7 +8,7 @@ describe("NameSpellChecker", () => {
   describe("constructor", () => {
     it("with args", () => {
       const tempNameSpellChecker = new NameSpellChecker([
-        BuiltInDictionary.frontEnd,
+        NameSpellChecker.defaultDictionaries[0],
         {
           aff: "SET UTF-8",
           dic: "2\nname-spell-checker\nname-dic",

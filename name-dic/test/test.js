@@ -1,7 +1,7 @@
 const expect = require("chai").expect;
 
-const frontEnd = require("../dist/front-end.js");
-const programmingLanguage = require("../dist/programming-language.js");
+const frontEnd = require("../umd/front-end.js");
+const programmingLanguage = require("../umd/programming-language.js");
 
 describe("brand name", () => {
   it("frontEnd", () => {

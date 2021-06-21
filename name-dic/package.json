@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rimraf umd esm && rollup -c",
-    "test": "mocha && karma start --single-run",
-    "ci-test": "mocha && karma start --single-run --browsers ChromeHeadless"
+    "test": "mocha && karma start --single-run"
   },
   "keywords": [],
   "author": "",

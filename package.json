@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && rollup -c",
-    "test": "tsc --module commonjs && mocha dist/tests/test.js"
+    "test:node": "TS_NODE_PROJECT=tsconfig.test.json mocha -r ts-node/register 'test/**/*.ts'",
+    "test:browser": "karma start"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,10 @@
   "keywords": [],
   "dependencies": {
     "name-dic": "./name-dic",
-    "nspell": "^2.1.5",
     "tslib": "^2.3.0"
+  },
+  "peerDependencies": {
+    "nspell": "^2.1.5"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^19.0.0",
@@ -33,10 +36,17 @@
     "@types/node": "^15.12.2",
     "@types/nspell": "^2.1.0",
     "chai": "^4.3.4",
+    "karma": "^6.3.4",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-firefox-launcher": "^2.1.1",
+    "karma-mocha": "^2.0.1",
+    "karma-typescript": "^5.5.1",
     "mocha": "^9.0.1",
     "rimraf": "^3.0.2",
     "rollup": "^2.52.1",
     "rollup-plugin-uglify": "^6.0.4",
+    "ts-node": "^10.0.0",
     "typescript": "^4.3.2"
   }
 }
