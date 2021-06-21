@@ -4,28 +4,7 @@
 ✗ NameSpellChecker  
 ✗ name-spell-checker.js
 
-## Contents
-
-- [Install](#install)
-- [Use](#use)
-- [API](#api)
-  - [`NSpell(dictionary)`](#nspelldictionary)
-  - [`NSpell#correct(word)`](#nspellcorrectword)
-  - [`NSpell#suggest(word)`](#nspellsuggestword)
-  - [`NSpell#spell(word)`](#nspellspellword)
-  - [`NSpell#add(word[, model])`](#nspelladdword-model)
-  - [`NSpell#remove(word)`](#nspellremoveword)
-  - [`NSpell#wordCharacters()`](#nspellwordcharacters)
-  - [`NSpell#dictionary(dic)`](#nspelldictionarydic)
-  - [`NSpell#personal(dic)`](#nspellpersonaldic)
-- [Dictionaries](#dictionaries)
-  - [Affix documents](#affix-documents)
-  - [Dictionary documents](#dictionary-documents)
-  - [Personal dictionary documents](#personal-dictionary-documents)
-  - [Affix options](#affix-options)
-- [License](#license)
-
-## Install
+## Installation
 
 [npm][]:
 
@@ -43,7 +22,7 @@ You probably also want to install some [dictionaries][]:
 npm install name-dic
 ```
 
-## Use
+## Usage
 
 ```js
 import dictionary from "name-dic/esm/front-end.js";
@@ -63,40 +42,22 @@ console.log(nameSpellChecker.correct("npm")); // => true
 ### `NameSpellChecker(dictionaries)`
 
 Create a new name spell checker.
-If you don't pass dictionary, the default will used
 
-dictionaries: List of `dictionary` objects. The first must have an `aff` key,
-other `aff` keys are ignored
+If no dictionaries passed, `NameSpellChecker.defaultDictionaries` will be used.
 
-###### Returns
+#### Parameters
+
+- `dictionaries` (`Array<Dictionary>`) — List of `dictionary` objects. The first must have an `aff` key, other `aff` keys are ignored
+
+#### Returns
 
 New instance of `NameSpellChecker`.
 
-### `NameSpellChecker#correct(word)`
+### `NameSpellChecker#suggest(str)`
 
-Check if `word` is correctly spelled.
+Suggest names close to given string.
 
-###### Example
-
-```js
-spell.correct("color"); // => true
-spell.correct("html"); // => false
-spell.correct("abreviation"); // => false
-```
-
-###### Parameters
-
-- `word` (`string`) — Word to check for correct spelling
-
-###### Returns
-
-`boolean` — Whether `word` is correctly spelled.
-
-### `NSpell#suggest(word)`
-
-Suggest correctly spelled words close to `word`.
-
-###### Example
+#### Example
 
 ```js
 spell.suggest("colour"); // => ['color']
@@ -105,50 +66,39 @@ spell.suggest("html"); // => ['HTML']
 spell.suggest("alot"); // => ['allot', 'slot', 'clot', …]
 ```
 
-###### Parameters
+#### Parameters
 
-- `word` (`string`) — Word to suggest spelling corrections for
+- `str` (`string`) — string to suggest names for
 
-###### Returns
+#### Returns
 
-`Array.<string>` — List with zero or more suggestions.
+`Array<string>` — List with zero or more suggestions.
 
-### `NSpell#spell(word)`
+### `NameSpellChecker#correct(str)`
 
-Get spelling information for `word`.
+Check if given string is correct name.
 
-###### Example
+#### Example
 
 ```js
-spell.spell("colour"); // => {correct: false, forbidden: false, warn: false}
-spell.spell("color"); // => {correct: true, forbidden: false, warn: false}
+spell.correct("vue"); // => true
+spell.correct("react"); // => false
+spell.correct("angular"); // => false
 ```
 
-###### Parameters
+#### Parameters
 
-- `word` (`string`) — Word to check
+- `str` (`string`) — string to check for correct spelling
 
-###### Returns
+#### Returns
 
-`Object`, with the following properties:
+`boolean` — Whether `str` is correct name.
 
-- `correct` (`boolean`)
-  — Whether `word` is correctly spelled
-- `forbidden` (`boolean`)
-  — Whether `word` is actually correct, but forbidden from showing up as such
-  (often by the users wish)
-- `warn` (`boolean`)
-  — Whether `word` is correct, but should trigger a warning
-  (rarely used in dictionaries)
+### `NameSpellChecker#add(brandName)`
 
-### `NSpell#add(word[, model])`
+Add `brandName` to known names.
 
-Add `word` to known words.
-If no model is given, the word will be marked as correct in the future, and will
-show up in spelling suggestions.
-If a model is given, `word` will be handled the same as `model`.
-
-###### Example
+#### Example
 
 ```js
 spell.correct("npm"); // => false
@@ -160,20 +110,21 @@ spell.correct("npm"); // => true
 spell.suggest("nnpm"); // => ['npm']
 ```
 
-###### Parameters
+#### Parameters
 
-- `word` (`string`) — Word to add
-- `model` (`string`, optional) — Known word to model `word` after
+- `brandName` (`string`) — name to add
 
-###### Returns
+#### Returns
 
-`NSpell` — Operated on instance.
+`NameSpellChecker` — Operated on instance.
 
-### `NSpell#remove(word)`
+### `NameSpellChecker#remove(word)`
 
-Remove `word` from the known words.
+### `NSpell#remove(brandName)`
 
-###### Example
+Remove `brandName` from the known words.
+
+#### Example
 
 ```js
 spell.correct("color"); // => true
@@ -183,35 +134,19 @@ spell.remove("color");
 spell.correct("color"); // => false
 ```
 
-###### Parameters
+#### Parameters
 
-- `word` (`string`) — Word to add
+- `brandName` (`string`) — name to remove
 
-###### Returns
+#### Returns
 
-`NSpell` — Operated on instance.
+`NameSpellChecker` — Operated on instance.
 
-### `NSpell#wordCharacters()`
+### `NameSpellChecker#dictionary(dic)`
 
-Get extra word characters defined by the loaded affix file.
-Most affix files don’t set these, but for example the [en][] dictionary sets
-`0123456789`.
+Add an extra dictionary to the NameSpellChecker.
 
-###### Example
-
-```js
-spell.wordCharacters(); // => '0123456789'
-```
-
-###### Returns
-
-`string?` — Defined word characters, if any.
-
-### `NSpell#dictionary(dic)`
-
-Add an extra dictionary to the spellchecker.
-
-###### Example
+#### Example
 
 ```js
 spell.dictionary(
@@ -219,46 +154,40 @@ spell.dictionary(
 );
 ```
 
-###### Parameters
+#### Parameters
 
-- `dic` (`Buffer` or `string`)
-  — Dictionary document to use; must be in UTF-8 when buffer
+- `dic` (`string`) — Dictionary document to use
 
-###### Returns
+#### Returns
 
-`NSpell` — Operated on instance.
+`NameSpellChecker` — Operated on instance.
 
-###### Note
-
-The given `dic` must be designed to work with the already loaded affix.
-It’s not possible to add dictionary files from different languages together
-(use two `NSpell` instances for that).
-
-### `NSpell#personal(dic)`
+### `NameSpellChecker#personal(dic)`
 
 Add a personal dictionary.
 
-###### Example
+#### Example
 
 ```js
-spell.personal(["foo", "bar/color", "*baz"].join("\n"));
+spell.personal(["foo", "*baz"].join("\n"));
 ```
 
-###### Parameters
+#### Parameters
 
-- `dic` (`Buffer` or `string`)
-  — Dictionary document to use; must be in UTF-8 when buffer
+- `dic` (`string`) — Personal dictionary document to use
 
-###### Returns
-
-`NSpell` — Operated on instance.
-
-###### Note
+#### Note
 
 Lines starting with a `*` mark a word as forbidden, which results in them being
 seen as incorrect, and prevents them from showing up in suggestions.
 Splitting a line in two with a slash, adds the left side and models it after the
 already known right word.
+
+#### Returns
+
+`NameSpellChecker` — Operated on instance.
+
+### `NameSpellChecker.defaultDictionaries`
 
 ## Dictionaries
 
@@ -332,116 +261,3 @@ bar/baz
 In the above example, `foo` is added as a known word; `bar` is added as well,
 but modelled after the existing word `baz`; finally, `qux` is marked as a
 forbidden word.
-
-### Affix options
-
-The following affix options are known to Hunspell.
-The checked ones are supported by **nspell**.
-
-###### General
-
-- [ ] `SET encoding` (UTF-8 is implied)
-- [x] `FLAG value`
-- [ ] `COMPLEXPREFIXES`
-- [ ] `LANG langcode`
-- [ ] `IGNORE characters`
-- [ ] `AF number_of_flag_vector_aliases`
-- [ ] `AF flag_vector`
-- [ ] `AF definitions in the affix file:`
-- [ ] `AF flag_vector`
-
-###### Suggestion
-
-- [x] `KEY characters_separated_by_vertical_line_optionally`
-- [x] `TRY characters`
-- [x] `NOSUGGEST flag`
-- [ ] `MAXCPDSUGS num`
-- [ ] `MAXNGRAMSUGS num`
-- [ ] `MAXDIFF [0-10]`
-- [ ] `ONLYMAXDIFF`
-- [ ] `NOSPLITSUGS`
-- [ ] `SUGSWITHDOTS`
-- [x] `REP number_of_replacement_definitions`
-- [x] `REP what replacement`
-- [ ] `MAP number_of_map_definitions`
-- [ ] `MAP string_of_related_chars_or_parenthesized_character_sequences`
-- [ ] `PHONE number_of_phone_definitions`
-- [ ] `PHONE what replacement`
-- [x] `WARN flag`
-- [x] `FORBIDWARN`
-
-###### Compounding
-
-- [ ] `BREAK number_of_break_definitions`
-- [ ] `BREAK character_or_character_sequence`
-- [x] `COMPOUNDRULE number_of_compound_definitions`
-- [x] `COMPOUNDRULE compound_pattern`
-- [x] `COMPOUNDMIN num`
-- [ ] `COMPOUNDFLAG flag`
-- [ ] `COMPOUNDBEGIN flag`
-- [ ] `COMPOUNDLAST flag`
-- [ ] `COMPOUNDMIDDLE flag`
-- [x] `ONLYINCOMPOUND flag`
-- [ ] `COMPOUNDPERMITFLAG flag`
-- [ ] `COMPOUNDFORBIDFLAG flag`
-- [ ] `COMPOUNDMORESUFFIXES`
-- [ ] `COMPOUNDROOT flag`
-- [ ] `COMPOUNDWORDMAX number`
-- [ ] `CHECKCOMPOUNDDUP`
-- [ ] `CHECKCOMPOUNDREP`
-- [ ] `CHECKCOMPOUNDCASE`
-- [ ] `CHECKCOMPOUNDTRIPLE`
-- [ ] `SIMPLIFIEDTRIPLE`
-- [ ] `CHECKCOMPOUNDPATTERN number_of_checkcompoundpattern_definitions`
-- [ ] `CHECKCOMPOUNDPATTERN endchars[/flag] beginchars[/flag] [replacement]`
-- [ ] `FORCEUCASE flag`
-- [ ] `COMPOUNDSYLLABLE max_syllable vowels`
-- [ ] `SYLLABLENUM flags`
-
-###### Affix creation
-
-- [x] `PFX flag cross_product number`
-- [x] `PFX flag stripping prefix [condition [morphological_fields…]]`
-- [x] `SFX flag cross_product number`
-- [x] `SFX flag stripping suffix [condition [morphological_fields…]]`
-
-###### Other
-
-- [ ] `CIRCUMFIX flag`
-- [x] `FORBIDDENWORD flag`
-- [ ] `FULLSTRIP`
-- [x] `KEEPCASE flag`
-- [x] `ICONV number_of_ICONV_definitions`
-- [x] `ICONV pattern pattern2`
-- [x] `OCONV number_of_OCONV_definitions`
-- [x] `OCONV pattern pattern2`
-- [ ] `LEMMA_PRESENT flag`
-- [x] `NEEDAFFIX flag`
-- [ ] `PSEUDOROOT flag`
-- [ ] `SUBSTANDARD flag`
-- [x] `WORDCHARS characters`
-- [ ] `CHECKSHARPS`
-
-## License
-
-[MIT][license] © [Titus Wormer][author]
-
-<!-- Definitions -->
-
-[build-badge]: https://github.com/wooorm/nspell/workflows/main/badge.svg
-[build]: https://github.com/wooorm/nspell/actions
-[coverage-badge]: https://img.shields.io/codecov/c/github/wooorm/nspell.svg
-[coverage]: https://codecov.io/github/wooorm/nspell
-[downloads-badge]: https://img.shields.io/npm/dm/nspell.svg
-[downloads]: https://www.npmjs.com/package/nspell
-[size-badge]: https://img.shields.io/bundlephobia/minzip/nspell.svg
-[size]: https://bundlephobia.com/result?p=nspell
-[npm]: https://docs.npmjs.com/cli/install
-[license]: license
-[author]: https://wooorm.com
-[dictionaries]: https://github.com/wooorm/dictionaries
-[en]: https://github.com/wooorm/dictionaries/tree/HEAD/dictionaries/en
-[nl]: https://github.com/wooorm/dictionaries/tree/HEAD/dictionaries/nl
-[hunspell-5]: https://linux.die.net/man/4/hunspell
-[affix-options]: #affix-options
-[dictionary]: #nspelldictionarydic
