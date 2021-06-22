@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
     "module": "esnext",
-    "baseUrl": "./"
+    "baseUrl": "./",
+    "declaration": true,
+    "declarationDir": "types"
   },
   "include": ["src/**/*", "typings.d.ts"]
 }

@@ -6,23 +6,22 @@
 
 ## Installation
 
-[npm][]:
+npm
 
 ```sh
-npm install name-spell-checker
-
-# Install peerDependencies
-
-npm install nspell
+# Install with peerDependencies nspell
+npm install name-spell-checker nspell
 ```
 
-You probably also want to install some [dictionaries][]:
+You probably also want to install some dictionaries:
 
 ```sh
 npm install name-dic
 ```
 
 ## Usage
+
+ESM:
 
 ```js
 import dictionary from "name-dic/esm/front-end.js";
@@ -36,6 +35,10 @@ console.log(nameSpellChecker.correct("React")); // => true
 spell.add("npm");
 console.log(nameSpellChecker.correct("npm")); // => true
 ```
+
+CJS:
+
+CDN:
 
 ## API
 
@@ -191,62 +194,48 @@ already known right word.
 
 ## Dictionaries
 
-**nspell** supports many parts of Hunspell-style dictionaries.
+**name-spell-checker** only supports small parts of Hunspell-style dictionaries.
 Essentially, the concept of a dictionary consists of one “affix” document, and
 one or more “dictionary” documents.
-The documents are tightly linked, so it’s not possible to use a Dutch affix with
-an English dictionary document.
 
-Below is a short introduction, see [hunspell(5)][hunspell-5] for more
-information.
+See [hunspell(5)][hunspell-5] for more information.
 
 ### Affix documents
 
 Affix documents define the language, keyboard, flags, and much more.
-For example, a paraphrased [Dutch][nl] affix document looks as follows:
+The default affix document, only have one line, looks as follows:
 
 ```text
 SET UTF-8
-
-KEY qwertyuiop|asdfghjkl|zxcvbnm|qawsedrftgyhujikolp|azsxdcfvgbhnjmk|aze|qsd|lm|wx|aqz|qws|
-
-WORDCHARS '’0123456789ĳ.-\/
-
-REP 487
-REP e en
-REP ji ĳ
-REP u oe
-# …
-
-SFX An Y 11
-SFX An 0 de d
-SFX An 0 fe f
-SFX An 0 ge g
-# …
 ```
 
-Not every option is supported in **nspell**.
-See [Affix options][affix-options] for a list of all options and which ones are
+Not every option is supported in **name-spell-checker**.
+We just pass it to **nspell**.
+See **nspell** [Affix options][affix-options] for a list of all options and which ones are
 supported.
 
 ### Dictionary documents
 
-Dictionary documents contain words and flags applying to those words.
+**name-spell-checker** does not support flags applying to those words.
+Because it rarely used for name detection
+
+Dictionary documents contain words.
 For example:
 
 ```text
 3
 foo
-bar/a
-baz/ab
+bar
+baz
 ```
 
 The above document contains three words, as the count on the first line shows.
 Further lines each start with a word.
-Some lines contain flags, as denoted by the slashes.
-What those flags do, and the size of flags, is defined by affix documents.
 
 ### Personal dictionary documents
+
+**name-spell-checker** does not support flags applying to those words.
+Because it rarely used for name detection
 
 Personal dictionaries are not intertwined with affix document.
 They define new words and words to forbid.
@@ -254,10 +243,8 @@ For example:
 
 ```text
 foo
-bar/baz
 *qux
 ```
 
-In the above example, `foo` is added as a known word; `bar` is added as well,
-but modelled after the existing word `baz`; finally, `qux` is marked as a
+In the above example, `foo` is added as a known word and `qux` is marked as a
 forbidden word.
