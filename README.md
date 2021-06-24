@@ -18,12 +18,6 @@ npm
 npm install name-spell-checker nspell
 ```
 
-You probably also want to install some dictionaries:
-
-```sh
-npm install name-dic
-```
-
 ## Usage
 
 ESM:
