@@ -8,7 +8,7 @@ describe("NameSpellChecker", () => {
   describe("constructor", () => {
     it("with args", () => {
       const tempNameSpellChecker = new NameSpellChecker([
-        NameSpellChecker.defaultDictionaries[0],
+        NameSpellChecker.defaultDictionaries.frontEnd,
         {
           aff: "SET UTF-8",
           dic: "2\nname-spell-checker\nname-dic",
@@ -36,6 +36,12 @@ describe("NameSpellChecker", () => {
 
       expect(tempNameSpellChecker.nspellInstance).to.be.instanceOf(nspell);
     });
+  });
+
+  describe("defaultDictionaries", () => {
+    expect(() => {
+      (NameSpellChecker.defaultDictionaries as any).foo = "foo";
+    }).to.throw(TypeError);
   });
 
   describe("suggest", () => {

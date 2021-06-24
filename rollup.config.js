@@ -4,7 +4,7 @@ import typescript from "@rollup/plugin-typescript";
 import { uglify } from "rollup-plugin-uglify";
 import { dependencies, version } from "./package.json";
 
-const externals = [/^nspell$/, /^name-dic$`/];
+const externals = [/^nspell$/, /^name-dic$/];
 
 const uglifyOutput = (config) => {
   return [

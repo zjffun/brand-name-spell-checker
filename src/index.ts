@@ -10,10 +10,14 @@ import remove from "./remove";
 import suggest from "./suggest";
 import { BuiltInDictionary, Dictionary } from "./types";
 
+const defaultDictionaries = Object.freeze({
+  frontEnd: BuiltInDictionary.frontEnd,
+});
+
 class NameSpellChecker {
-  static defaultDictionaries = {
-    frontEnd: BuiltInDictionary.frontEnd,
-  };
+  static get defaultDictionaries() {
+    return defaultDictionaries;
+  }
 
   constructor(dictionaries?: Array<Dictionary | BuiltInDictionary>) {
     if (!dictionaries) {
