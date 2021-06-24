@@ -8,17 +8,31 @@ module.exports = function (config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ["mocha", "chai"],
+    frameworks: ["mocha", "chai", "webpack"],
 
     // list of files / patterns to load in the browser
-    files: ["umd/front-end.js", "umd/programming-language.js", "karma.test.js"],
+    files: [
+      "dist/front-end.js",
+      "dist/programming-language.js",
+      // use watched: false as we use webpacks watch
+      { pattern: "test/*.js", watched: false },
+    ],
 
     // list of files / patterns to exclude
     exclude: [],
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
-    preprocessors: {},
+    preprocessors: {
+      "test/*.js": ["webpack"],
+    },
+
+    webpack: {
+      // karma watches the test entry points
+      // Do NOT specify the entry option
+      // webpack watches dependencies
+      // webpack configuration
+    },
 
     // test results reporter to use
     // possible values: 'dots', 'progress'

@@ -27,15 +27,15 @@ npm install name-dic
 
 ## Usage
 
-ES6 Modules:
+ES modules:
 
 ```js
-import frontEndDic from "name-dic/dist/front-end.js";
+import frontEndDic from "name-dic/esm/front-end.js";
 
 console.log(frontEndDic);
 ```
 
-CMD:
+CommonJS:
 
 ```js
 const frontEndDic = require("name-dic/dist/front-end.js");
@@ -48,7 +48,7 @@ CDN:
 ```html
 <script src="https://cdn.jsdelivr.net/npm/name-dic/dist/front-end.js"></script>
 <script>
-  console.log(frontEndDic);
+  console.log(nameDic.frontEndDic);
 </script>
 ```
 

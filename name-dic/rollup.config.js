@@ -4,10 +4,18 @@ import { version } from "./package.json";
 
 const configs = [
   {
+    input: "src/index.ts",
+    output: {
+      format: "umd",
+      file: "dist/index.js",
+      name: "nameDic",
+    },
+  },
+  {
     input: "src/front-end.ts",
     output: {
       format: "umd",
-      file: "umd/front-end.js",
+      file: "dist/front-end.js",
       name: "nameDic.frontEnd",
     },
   },
@@ -22,7 +30,7 @@ const configs = [
     input: "src/programming-language.ts",
     output: {
       format: "umd",
-      file: "umd/programming-language.js",
+      file: "dist/programming-language.js",
       name: "nameDic.programmingLanguage",
     },
   },
