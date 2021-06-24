@@ -300,5 +300,5 @@ forbidden word.
 [jsdelivr-badge]: https://data.jsdelivr.com/v1/package/npm/name-spell-checker/badge
 [test-badge]: https://github.com/zjffun/name-spell-checker/workflows/test%20CI/badge.svg
 [test-link]: https://github.com/zjffun/name-spell-checker/actions
-[codecov-badge]: https://codecov.io/gh/zjffun/name-spell-checker/branch/master/graph/badge.svg
+[codecov-badge]: https://codecov.io/gh/zjffun/name-spell-checker/branch/main/graph/badge.svg
 [codecov-link]: https://codecov.io/gh/zjffun/name-spell-checker
