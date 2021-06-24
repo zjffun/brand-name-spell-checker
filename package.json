@@ -1,7 +1,7 @@
 {
   "name": "name-spell-checker",
   "description": "✓name-spell-checker   ✗ NameSpellChecker   ✗ name-spell-checker.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "module": "esm/index.js",
   "types": "index.d.ts",
