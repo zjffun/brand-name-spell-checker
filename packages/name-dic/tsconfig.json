@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "baseUrl": "./"
+  },
+  "include": ["src/**/*", "typings.d.ts"]
+}
