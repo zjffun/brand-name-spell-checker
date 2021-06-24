@@ -11,11 +11,7 @@ module.exports = function (config) {
     frameworks: ["mocha", "chai", "webpack"],
 
     // list of files / patterns to load in the browser
-    files: [
-      "dist/nspell.js",
-      "test/*.ts",
-      { pattern: "test/*.js", watched: false },
-    ],
+    files: ["dist/nspell.js", "test/*.ts"],
 
     // list of files / patterns to exclude
     exclude: [],

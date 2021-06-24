@@ -20,7 +20,7 @@
   "license": "MIT",
   "files": [
     "dist",
-    "types"
+    "esm"
   ],
   "bugs": {
     "url": "https://github.com/zjffun/name-spell-checker/issues"
@@ -39,6 +39,7 @@
     "@rollup/plugin-node-resolve": "^13.0.0",
     "@rollup/plugin-typescript": "^8.2.1",
     "@types/chai": "^4.2.19",
+    "@types/estree": "0.0.48",
     "@types/mocha": "^8.2.2",
     "@types/node": "^15.12.2",
     "@types/nspell": "^2.1.0",
