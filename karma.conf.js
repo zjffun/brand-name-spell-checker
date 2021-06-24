@@ -8,10 +8,14 @@ module.exports = function (config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ["mocha", "chai", "karma-typescript"],
+    frameworks: ["mocha", "chai", "webpack"],
 
     // list of files / patterns to load in the browser
-    files: ["dist/nspell.js", "test/*.ts"],
+    files: [
+      "dist/nspell.js",
+      "test/*.ts",
+      { pattern: "test/*.js", watched: false },
+    ],
 
     // list of files / patterns to exclude
     exclude: [],
@@ -19,18 +23,39 @@ module.exports = function (config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-      "test/*.ts": "karma-typescript",
+      "test/*.ts": "webpack",
+    },
+
+    webpack: {
+      // karma watches the test entry points
+      // Do NOT specify the entry option
+      // webpack watches dependencies
+      // webpack configuration
+      module: {
+        rules: [
+          {
+            test: /\.tsx?$/,
+            use: [
+              {
+                loader: "ts-loader",
+                options: {
+                  configFile: "tsconfig.test.json",
+                },
+              },
+            ],
+            exclude: /node_modules/,
+          },
+        ],
+      },
+      resolve: {
+        extensions: [".ts", ".js"],
+      },
     },
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ["progress", "karma-typescript"],
-
-    karmaTypescriptConfig: {
-      tsconfig: "./tsconfig.test.json",
-      reports: { "text-summary": "" },
-    },
+    reporters: ["progress"],
 
     // web server port
     port: 9876,

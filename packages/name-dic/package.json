@@ -1,8 +1,9 @@
 {
   "name": "name-dic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
+  "module": "esm/index.js",
   "scripts": {
     "prepublishOnly": "npm run build && npm run test",
     "build": "rimraf dist esm && npm run build:type && rollup -c",

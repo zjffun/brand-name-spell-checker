@@ -1,11 +1,10 @@
 import commonjs from "@rollup/plugin-commonjs";
 import nodeResolve from "@rollup/plugin-node-resolve";
-import replace from "@rollup/plugin-replace";
 import typescript from "@rollup/plugin-typescript";
 import { uglify } from "rollup-plugin-uglify";
 import { dependencies, version } from "./package.json";
 
-const externals = [/^nspell$/, /^name-dic\/.*/];
+const externals = [/^nspell$/, /^name-dic$`/];
 
 const uglifyOutput = (config) => {
   return [
@@ -34,28 +33,6 @@ const uglifyOutput = (config) => {
 const configs = [
   {
     input: "src/index.ts",
-    output: {
-      format: "esm",
-      file: "dist/index.esm.js",
-    },
-  },
-  {
-    input: "src/index.ts",
-    output: {
-      format: "cjs",
-      file: "dist/index.cjs.js",
-      exports: "default",
-    },
-    plugins: [
-      typescript(),
-      replace({
-        preventAssignment: true,
-        values: { "name-dic/esm/front-end.js": "name-dic/umd/front-end.js" },
-      }),
-    ],
-  },
-  {
-    input: "src/index.ts",
     output: uglifyOutput({
       banner: `/* name-spell-checker version ${version} */`,
       file: "dist/index.js",
@@ -63,16 +40,10 @@ const configs = [
       name: "NameSpellChecker",
       globals: {
         nspell: "nspell",
-        "name-dic/umd/front-end.js": "nameDic.frontEnd",
+        "name-dic": "nameDic",
       },
     }),
-    plugins: [
-      typescript(),
-      replace({
-        preventAssignment: true,
-        values: { "name-dic/esm/front-end.js": "name-dic/umd/front-end.js" },
-      }),
-    ],
+    plugins: [typescript()],
   },
 ];
 

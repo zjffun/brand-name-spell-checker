@@ -11,14 +11,15 @@ import suggest from "./suggest";
 import { BuiltInDictionary, Dictionary } from "./types";
 
 class NameSpellChecker {
-  static defaultDictionaries = [
-    BuiltInDictionary.frontEnd,
-    BuiltInDictionary.programmingLanguages,
-  ];
+  static defaultDictionaries = {
+    frontEnd: BuiltInDictionary.frontEnd,
+  };
 
   constructor(dictionaries?: Array<Dictionary | BuiltInDictionary>) {
     if (!dictionaries) {
-      this.dictionaries = getDictionaries(NameSpellChecker.defaultDictionaries);
+      this.dictionaries = getDictionaries(
+        Object.values(NameSpellChecker.defaultDictionaries)
+      );
     } else {
       this.dictionaries = getDictionaries(dictionaries);
     }

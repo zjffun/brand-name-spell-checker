@@ -1,6 +1,6 @@
 import { expect } from "chai";
 import nspell from "nspell";
-import NameSpellChecker from "../dist/index.cjs.js";
+import NameSpellChecker from "../src/index";
 
 const nameSpellChecker = new NameSpellChecker();
 
@@ -38,12 +38,17 @@ describe("NameSpellChecker", () => {
     });
   });
 
-  it("suggest", () => {
+  describe("suggest", () => {
     expect(nameSpellChecker.suggest("vue")).to.include("Vue.js");
     expect(nameSpellChecker.suggest("react")).to.include("React");
     expect(nameSpellChecker.suggest("anguler")).to.include("Angular");
     expect(nameSpellChecker.suggest("query")).to.include("jQuery");
     expect(nameSpellChecker.suggest("Mocha.js")).to.include("Mocha");
+
+    it("should be no duplicates", () => {
+      const suggests = nameSpellChecker.suggest("vue");
+      expect(suggests.length).to.be.equal([...new Set(suggests)].length);
+    });
   });
 
   it("correct", () => {

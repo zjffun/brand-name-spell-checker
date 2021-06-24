@@ -1,3 +1,8 @@
+[![jsdelivr][jsdelivr-badge]][jsdelivr-link]
+[![npm version][fury-badge]][fury-link]
+[![test CI][test-badge]][test-link]
+[![codecov][codecov-badge]][codecov-link]
+
 # name-spell-checker
 
 ✓ name-spell-checker  
@@ -24,21 +29,59 @@ npm install name-dic
 ESM:
 
 ```js
-import dictionary from "name-dic/esm/front-end.js";
 import NameSpellChecker from "name-spell-checker";
 
 const nameSpellChecker = new NameSpellChecker();
 
 console.log(nameSpellChecker.correct("vue")); // => false
-console.log(nameSpellChecker.suggest("react")); // => ['color']
+console.log(nameSpellChecker.suggest("vue")); // => [ 'Vuex', 'Vue.js', 'vue-cli', 'Vue.js devtools' ]
 console.log(nameSpellChecker.correct("React")); // => true
-spell.add("npm");
-console.log(nameSpellChecker.correct("npm")); // => true
+console.log(nameSpellChecker.correct("angular")); // => false
+
+nameSpellChecker.add("name-spell-checker");
+
+console.log(nameSpellChecker.suggest("NameSpellChecker")); // => [ 'name-spell-checker' ]
+console.log(nameSpellChecker.correct("name-spell-checker")); // => true
 ```
 
 CJS:
 
+```js
+const NameSpellChecker = require("name-spell-checker");
+
+const nameSpellChecker = new NameSpellChecker();
+
+console.log(nameSpellChecker.correct("vue")); // => false
+console.log(nameSpellChecker.suggest("vue")); // => [ 'Vuex', 'Vue.js', 'vue-cli', 'Vue.js devtools' ]
+console.log(nameSpellChecker.correct("React")); // => true
+console.log(nameSpellChecker.correct("angular")); // => false
+
+nameSpellChecker.add("name-spell-checker");
+
+console.log(nameSpellChecker.suggest("NameSpellChecker")); // => [ 'name-spell-checker' ]
+console.log(nameSpellChecker.correct("name-spell-checker")); // => true
+```
+
 CDN:
+
+```html
+<script src="./dist/nnameSpellChecker.min.js"></script>
+<script src="./node_modules/name-dic/dist/front-end.js"></script>
+<script src="./dist/index.js"></script>
+<script>
+  const nameSpellChecker = new NameSpellChecker();
+
+  console.log(nameSpellChecker.correct("vue")); // => false
+  console.log(nameSpellChecker.suggest("vue")); // => [ 'Vuex', 'Vue.js', 'vue-cli', 'Vue.js devtools' ]
+  console.log(nameSpellChecker.correct("React")); // => true
+  console.log(nameSpellChecker.correct("angular")); // => false
+
+  nameSpellChecker.add("name-spell-checker");
+
+  console.log(nameSpellChecker.suggest("NameSpellChecker")); // => [ 'name-spell-checker' ]
+  console.log(nameSpellChecker.correct("name-spell-checker")); // => true
+</script>
+```
 
 ## API
 
@@ -58,15 +101,13 @@ New instance of `NameSpellChecker`.
 
 ### `NameSpellChecker#suggest(str)`
 
-Suggest names close to given string.
+Suggest names close to the given string.
 
 #### Example
 
 ```js
-spell.suggest("colour"); // => ['color']
-spell.suggest("color"); // => []
-spell.suggest("html"); // => ['HTML']
-spell.suggest("alot"); // => ['allot', 'slot', 'clot', …]
+nameSpellChecker.suggest("macha"); // => [ 'Mocha' ]
+nameSpellChecker.suggest("chai"); // => [ 'Chai' ]
 ```
 
 #### Parameters
@@ -79,14 +120,13 @@ spell.suggest("alot"); // => ['allot', 'slot', 'clot', …]
 
 ### `NameSpellChecker#correct(str)`
 
-Check if given string is correct name.
+Check if the given string is correct name.
 
 #### Example
 
 ```js
-spell.correct("vue"); // => true
-spell.correct("react"); // => false
-spell.correct("angular"); // => false
+nameSpellChecker.correct("jquery"); // => false
+nameSpellChecker.correct("jQuery"); // => true
 ```
 
 #### Parameters
@@ -97,25 +137,25 @@ spell.correct("angular"); // => false
 
 `boolean` — Whether `str` is correct name.
 
-### `NameSpellChecker#add(brandName)`
+### `NameSpellChecker#add(name)`
 
-Add `brandName` to known names.
+Add the given name to known names.
 
 #### Example
 
 ```js
-spell.correct("npm"); // => false
-spell.suggest("nnpm"); // => ['ppm', 'bpm', …]
+nameSpellChecker.correct("name-spell-checker"); // => false
+nameSpellChecker.suggest("name-spell-checker"); // => []
 
-spell.add("npm");
+nameSpellChecker.add("name-spell-checker");
 
-spell.correct("npm"); // => true
-spell.suggest("nnpm"); // => ['npm']
+nameSpellChecker.correct("name-spell-checker"); // => true
+nameSpellChecker.suggest("NameSpellCheck"); // => [ 'name-spell-checker' ]
 ```
 
 #### Parameters
 
-- `brandName` (`string`) — name to add
+- `name` (`string`) — name to add
 
 #### Returns
 
@@ -123,23 +163,23 @@ spell.suggest("nnpm"); // => ['npm']
 
 ### `NameSpellChecker#remove(word)`
 
-### `NSpell#remove(brandName)`
+### `NSpell#remove(name)`
 
-Remove `brandName` from the known words.
+Remove the given name from known words.
 
 #### Example
 
 ```js
-spell.correct("color"); // => true
+nameSpellChecker.correct("Vue.js"); // => true
 
-spell.remove("color");
+nameSpellChecker.remove("Vue.js");
 
-spell.correct("color"); // => false
+nameSpellChecker.correct("Vue.js"); // => false
 ```
 
 #### Parameters
 
-- `brandName` (`string`) — name to remove
+- `name` (`string`) — name to remove
 
 #### Returns
 
@@ -152,8 +192,15 @@ Add an extra dictionary to the NameSpellChecker.
 #### Example
 
 ```js
-spell.dictionary(
-  ["5", "npm", "nullish", "rebase", "SHA", "stringification"].join("\n")
+nameSpellChecker.dictionary(
+  [
+    "5",
+    "name-spell-checker",
+    "my-lib-foo",
+    "jQuery.bar.js",
+    "a.js",
+    "b.lib.js",
+  ].join("\n")
 );
 ```
 
@@ -172,7 +219,7 @@ Add a personal dictionary.
 #### Example
 
 ```js
-spell.personal(["foo", "*baz"].join("\n"));
+nameSpellChecker.personal(["foo", "*baz"].join("\n"));
 ```
 
 #### Parameters
@@ -183,14 +230,18 @@ spell.personal(["foo", "*baz"].join("\n"));
 
 Lines starting with a `*` mark a word as forbidden, which results in them being
 seen as incorrect, and prevents them from showing up in suggestions.
-Splitting a line in two with a slash, adds the left side and models it after the
-already known right word.
 
 #### Returns
 
 `NameSpellChecker` — Operated on instance.
 
 ### `NameSpellChecker.defaultDictionaries`
+
+An object of default dictionaries.
+
+Dictionaries:
+
+- frontEnd
 
 ## Dictionaries
 
@@ -209,18 +260,14 @@ The default affix document, only have one line, looks as follows:
 SET UTF-8
 ```
 
-Not every option is supported in **name-spell-checker**.
-We just pass it to **nspell**.
-See **nspell** [Affix options][affix-options] for a list of all options and which ones are
-supported.
+Not every option is supported in **name-spell-checker**. We just pass it to [**nspell**][nspell].
 
 ### Dictionary documents
 
 **name-spell-checker** does not support flags applying to those words.
-Because it rarely used for name detection
+Because it rarely used for check name.
 
-Dictionary documents contain words.
-For example:
+Dictionary documents contain words. For example:
 
 ```text
 3
@@ -235,7 +282,7 @@ Further lines each start with a word.
 ### Personal dictionary documents
 
 **name-spell-checker** does not support flags applying to those words.
-Because it rarely used for name detection
+Because it rarely used for check name.
 
 Personal dictionaries are not intertwined with affix document.
 They define new words and words to forbid.
@@ -248,3 +295,16 @@ foo
 
 In the above example, `foo` is added as a known word and `qux` is marked as a
 forbidden word.
+
+<!-- Definitions -->
+
+[hunspell-5]: https://linux.die.net/man/4/hunspell
+[nspell]: https://github.com/wooorm/nspell
+[fury-link]: https://badge.fury.io/js/name-spell-checker
+[fury-badge]: https://badge.fury.io/js/name-spell-checker.svg
+[jsdelivr-link]: https://www.jsdelivr.com/package/npm/name-spell-checker
+[jsdelivr-badge]: https://data.jsdelivr.com/v1/package/npm/name-spell-checker/badge
+[test-badge]: https://github.com/zjffun/name-spell-checker/workflows/test%20CI/badge.svg
+[test-link]: https://github.com/zjffun/name-spell-checker/actions
+[codecov-badge]: https://codecov.io/gh/zjffun/name-spell-checker/branch/master/graph/badge.svg
+[codecov-link]: https://codecov.io/gh/zjffun/name-spell-checker

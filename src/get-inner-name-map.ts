@@ -19,6 +19,7 @@ export default function (context: NameSpellChecker) {
         if (!arr) {
           arr = [name];
           map.set(innerName, arr);
+          return;
         }
         arr.push(name);
       });

@@ -1,4 +1,4 @@
-import frontEnd from "name-dic/esm/front-end.js";
+import { frontEnd } from "name-dic";
 import { BuiltInDictionary, Dictionary } from "./types";
 
 export default (arr: Array<Dictionary | BuiltInDictionary>): Dictionary[] => {
