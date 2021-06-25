@@ -3,7 +3,7 @@
 [![test CI][test-badge]][test-link]
 [![codecov][codecov-badge]][codecov-link]
 
-# name-spell-checker
+# [name-spell-checker][name-spell-checker]
 
 ✓ name-spell-checker  
 ✗ NameSpellChecker  
@@ -59,9 +59,9 @@ console.log(nameSpellChecker.correct("name-spell-checker")); // => true
 CDN:
 
 ```html
-<script src="./dist/nnameSpellChecker.min.js"></script>
-<script src="./node_modules/name-dic/dist/front-end.js"></script>
-<script src="./dist/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/name-dic@0.0.2/dist/index.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/name-spell-checker@0.0.2/dist/nspell.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/name-spell-checker@0.0.2/dist/index.min.js"></script>
 <script>
   const nameSpellChecker = new NameSpellChecker();
 
@@ -292,6 +292,7 @@ forbidden word.
 
 <!-- Definitions -->
 
+[name-spell-checker]: https://zjffun.github.io/name-spell-checker/
 [hunspell-5]: https://linux.die.net/man/4/hunspell
 [nspell]: https://github.com/wooorm/nspell
 [fury-link]: https://badge.fury.io/js/name-spell-checker

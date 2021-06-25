@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>name-spell-checker</title>
+    <style>
+      .container {
+        margin: 0 auto;
+        max-width: 768px;
+        --gray: #bdbdbd;
+        --success: #43a047;
+        --error: #d81b60;
+      }
+
+      .container * {
+        box-sizing: border-box;
+      }
+
+      .container > h1 {
+        text-align: center;
+      }
+
+      .container > input {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: 30px;
+        border: 2px solid;
+        font-size: 20px;
+        text-align: center;
+      }
+
+      .container > .tip {
+        color: var(--gray);
+      }
+
+      .container > ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+      }
+
+      .container > ul li {
+        position: relative;
+        margin: 2px;
+        padding: 0.5rem;
+        border: 2px solid transparent;
+        list-style: none;
+        cursor: copy;
+      }
+
+      .container > ul li:hover {
+        border-color: var(--gray);
+      }
+
+      .container > ul li::before {
+        position: absolute;
+        top: 0;
+        left: 0.2rem;
+        line-height: 1;
+      }
+
+      .container > ul li.copy-success {
+        border-color: var(--success);
+        color: #00000080;
+      }
+
+      .container > ul li.copy-success::before {
+        content: "copy success";
+        color: var(--success);
+      }
+
+      .container > ul li.copy-error {
+        border-color: var(--error);
+      }
+
+      .container > ul li.copy-error::before {
+        content: "copy error";
+        color: var(--error);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <h1>name-spell-checker</h1>
+      <input id="name-input" type="text" />
+      <p class="tip">You can copy text by click item.</p>
+      <ul id="suggestions-list"></ul>
+      <script src="https://cdn.jsdelivr.net/npm/name-dic@0.0.2/dist/index.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/name-spell-checker@0.0.2/dist/nspell.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/name-spell-checker@0.0.2/dist/index.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js"></script>
+      <script>
+        const nameSpellChecker = new NameSpellChecker();
+        const suggestionsList = document.getElementById("suggestions-list");
+
+        function suggest(e) {
+          if (e) {
+            const suggestions = nameSpellChecker.suggest(e.target.value);
+            suggestionsList.innerHTML = suggestions
+              .map((s) => `<li>${s}</li>`)
+              .join("");
+          }
+        }
+
+        document
+          .getElementById("name-input")
+          .addEventListener("input", suggest);
+
+        const clipboard = new ClipboardJS(".container li", {
+          text: function (trigger) {
+            return trigger.innerText;
+          },
+        });
+
+        clipboard.on("success", function (e) {
+          e.trigger.classList.add("copy-success");
+
+          setTimeout(() => {
+            e.trigger.classList.remove("copy-success");
+          }, 1000);
+
+          e.clearSelection();
+        });
+
+        clipboard.on("error", function (e) {
+          e.trigger.classList.add("copy-error");
+
+          setTimeout(() => {
+            e.trigger.classList.remove("copy-error");
+          }, 1000);
+        });
+      </script>
+    </main>
+  </body>
+</html>
