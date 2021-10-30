@@ -298,7 +298,7 @@ forbidden word.
 
 ### v0.0.3
 
-- Fix bug add declaration file #1
+- Fix bug add declaration file [#1](https://github.com/zjffun/name-spell-checker/issues/1)
 
 <!-- Definitions -->
 
