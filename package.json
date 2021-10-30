@@ -20,7 +20,8 @@
   "license": "MIT",
   "files": [
     "dist",
-    "esm"
+    "esm",
+    "index.d.ts"
   ],
   "bugs": {
     "url": "https://github.com/zjffun/name-spell-checker/issues"
