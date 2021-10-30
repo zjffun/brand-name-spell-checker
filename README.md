@@ -290,6 +290,16 @@ foo
 In the above example, `foo` is added as a known word and `qux` is marked as a
 forbidden word.
 
+## Release Notes
+
+### [TODO]
+
+### [Unreleased]
+
+### v0.0.3
+
+- Fix bug add declaration file #1
+
 <!-- Definitions -->
 
 [name-spell-checker]: https://zjffun.github.io/name-spell-checker/
