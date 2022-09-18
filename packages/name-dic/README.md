@@ -3,8 +3,6 @@
 
 # name-dic
 
-**Not yet published on npm.**
-
 - [x] Front-end related name dictionary
 - [ ] Programming language name dictionary
 - [ ] GIS related name dictionary
