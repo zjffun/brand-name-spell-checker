@@ -1,7 +1,7 @@
 {
   "name": "name-spell-checker",
   "description": "✓name-spell-checker   ✗ NameSpellChecker   ✗ name-spell-checker.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/index.js",
   "module": "esm/index.js",
   "types": "index.d.ts",
@@ -29,7 +29,7 @@
   "homepage": "https://github.com/zjffun/name-spell-checker#readme",
   "keywords": [],
   "dependencies": {
-    "name-dic": "^0.0.2",
+    "name-dic": "^0.0.5",
     "tslib": "^2.3.0"
   },
   "peerDependencies": {
