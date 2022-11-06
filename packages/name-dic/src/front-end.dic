@@ -328,6 +328,7 @@ SEO Tools
 SMACSS
 SMACSS
 SUIT CSS
+SVG
 Satyr
 Sauce Labs
 Scalable Modular Architecture for CSS
@@ -395,6 +396,7 @@ Webix
 Websecurify
 Workbox
 XSS
+Yarn
 Zeal
 Zepto
 ZingChart
@@ -567,5 +569,4 @@ webshim
 weex
 whatwebcando.today
 xregexp.com
-yarn
 {json:api}
