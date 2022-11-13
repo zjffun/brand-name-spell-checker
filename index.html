@@ -136,6 +136,36 @@
             e.trigger.classList.remove("copy-error");
           }, 1000);
         });
+
+        fetch(
+          "https://gist.githubusercontent.com/zjffun/12d28bac3550e0e398f4021081cf66c2/raw/name-spell-checker-dic.txt"
+        )
+          .then((d) => d.text())
+          .then((data) => {
+            const dataArr = data.split("\n");
+            const names = [];
+
+            for (const d of dataArr) {
+              const trimmed = d.trim();
+
+              if (trimmed === "") {
+                continue;
+              }
+
+              if (trimmed.startsWith("#")) {
+                continue;
+              }
+
+              names.push(trimmed);
+            }
+
+            const dicWithCount = `${names.length}\n${names.join("\n")}`;
+
+            nameSpellChecker.dictionary(dicWithCount);
+          })
+          .catch((e) => {
+            console.error(e);
+          });
       </script>
     </main>
   </body>
