@@ -59,7 +59,7 @@ console.log(nameSpellChecker.correct("name-spell-checker")); // => true
 CDN:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/name-dic@0.0.5/dist/index.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/name-dic@0.0.6/dist/index.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/name-spell-checker@0.0.4/dist/nspell.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/name-spell-checker@0.0.4/dist/index.min.js"></script>
 <script>
